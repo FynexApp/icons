@@ -4,7 +4,10 @@
  * - apple-touch-icon.png (180 px), icon-192.png and icon-512.png, the same mark
  *   on a full square (the platforms round the corners themselves);
  * - og.png (1200 x 630), the link preview: the hero painting, the name, the
- *   install command and real icons of the package.
+ *   install command and real icons of the package;
+ * - .github/social-preview.png (1280 x 640), the same card at the size GitHub
+ *   asks for the social preview of the repository (uploaded by hand in the
+ *   repository settings, GitHub has no API for it).
  *
  * The outputs are committed: run this again when the mark, the painting, the
  * icon count or the copy changes. It needs the package build (`npm run build`,
@@ -102,13 +105,13 @@ function ico(images: { size: number; png: Buffer }[]) {
   return Buffer.concat([header, ...entries, ...images.map((image) => image.png)])
 }
 
-function previewHtml() {
+function previewHtml(width: number, height: number) {
   const painting = `data:image/jpeg;base64,${fs.readFileSync(path.join(PUBLIC, 'art', 'hero.jpg')).toString('base64')}`
   const icons = PREVIEW_ICONS.map((name) => `<span>${iconSvg(name, 50)}</span>`).join('')
   const css = `
-    html, body { width: 1200px; height: 630px; background: ${INK}; overflow: hidden; }
+    html, body { width: ${width}px; height: ${height}px; background: ${INK}; overflow: hidden; }
     body { position: relative; -webkit-font-smoothing: antialiased; }
-    .painting { position: absolute; top: 0; right: 0; height: 630px; width: auto;
+    .painting { position: absolute; top: 0; right: 0; height: ${height}px; width: auto;
       -webkit-mask-image: linear-gradient(to right, transparent, #000 48%), linear-gradient(to bottom, transparent, #000 10%, #000 88%, transparent);
       -webkit-mask-composite: source-in; }
     .copy { position: absolute; top: 0; bottom: 0; left: 80px; width: 700px; display: flex; flex-direction: column; justify-content: center; }
@@ -143,16 +146,22 @@ try {
     fs.writeFileSync(path.join(PUBLIC, file), await renderSvg(page, squareMark, size))
   }
 
-  await page.setViewportSize({ width: 1200, height: 630 })
-  await page.setContent(previewHtml(), { waitUntil: 'networkidle' })
-  const fonts = await page.evaluate(async () => {
-    await document.fonts.ready
-    return ['300 132px "Cormorant Garamond"', '300 34px Poppins', '400 30px "JetBrains Mono"'].map((font) => document.fonts.check(font))
-  })
-  if (fonts.includes(false)) throw new Error(`A font of the preview did not load: ${JSON.stringify(fonts)}`)
-  await page.screenshot({ path: path.join(PUBLIC, 'og.png'), type: 'png' })
+  const cards = [
+    { file: path.join(PUBLIC, 'og.png'), width: 1200, height: 630 },
+    { file: path.join(ROOT, '.github', 'social-preview.png'), width: 1280, height: 640 },
+  ]
+  for (const { file, width, height } of cards) {
+    await page.setViewportSize({ width, height })
+    await page.setContent(previewHtml(width, height), { waitUntil: 'networkidle' })
+    const fonts = await page.evaluate(async () => {
+      await document.fonts.ready
+      return ['300 132px "Cormorant Garamond"', '300 34px Poppins', '400 30px "JetBrains Mono"'].map((font) => document.fonts.check(font))
+    })
+    if (fonts.includes(false)) throw new Error(`A font of the preview did not load: ${JSON.stringify(fonts)}`)
+    await page.screenshot({ path: file, type: 'png' })
+  }
 } finally {
   await browser.close()
 }
 
-console.log('wrote favicon.ico, apple-touch-icon.png, icon-192.png, icon-512.png and og.png in site/public')
+console.log('wrote favicon.ico, apple-touch-icon.png, icon-192.png, icon-512.png and og.png in site/public, and .github/social-preview.png')

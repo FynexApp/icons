@@ -1,5 +1,13 @@
 # @fynex/icons
 
+<a href="https://www.star-history.com/#FynexApp/icons&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FynexApp/icons&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FynexApp/icons&type=Date" />
+    <img alt="Star history of FynexApp/icons" src="https://api.star-history.com/svg?repos=FynexApp/icons&type=Date" />
+  </picture>
+</a>
+
 Animated SVG icons for React, with one motion grammar for the whole set.
 
 - **310 icons** drawn on the lucide grid (24 x 24, stroke 2, round caps, `currentColor`), with the same names and props as `lucide-react`, plus a few Fynex originals (the krona sign, the euro area, three globes).
@@ -27,7 +35,6 @@ The site lives in `site/` (a Vite app that runs the sources of this repository, 
 - [API](#api)
 - [Icons](#icons)
 - [Contributing](#contributing)
-- [Star history](#star-history)
 - [Credits](#credits)
 - [License](#license)
 
@@ -654,16 +661,6 @@ To add an icon:
 5. Run `npm test`. The suite checks that every exported icon has a catalog entry and the other way round, that every animated part has a resting value, that gestures only use transforms, opacity and path length, and that durations stay within the grammar.
 
 Commit messages follow the [Karma convention](http://karma-runner.github.io/latest/dev/git-commit-msg.html): `type(scope): subject`, for instance `feat(icons): add the inbox icon`.
-
-## Star history
-
-<a href="https://www.star-history.com/#FynexApp/icons&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FynexApp/icons&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FynexApp/icons&type=Date" />
-    <img alt="Star history of FynexApp/icons" src="https://api.star-history.com/svg?repos=FynexApp/icons&type=Date" />
-  </picture>
-</a>
 
 ## Credits
 
