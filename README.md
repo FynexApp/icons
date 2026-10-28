@@ -266,7 +266,7 @@ Generated from `src/catalog.ts` by `npm run generate`.
 
 <!-- icons:start -->
 
-272 icons in 6 families.
+284 icons in 6 families.
 
 ### Arrows and chevrons (38)
 
@@ -379,7 +379,7 @@ What the user does: each icon mimes its own action (the lid lifts, the check dra
 | `ToggleLeft` | `toggle-left` | The knob nudges toward the other side |  |
 | `ToggleRight` | `toggle-right` | The knob nudges toward the other side |  |
 
-### Data and charts (45)
+### Data and charts (57)
 
 Lines draw themselves, bars grow, list rows arrive one after another.
 
@@ -422,6 +422,18 @@ Lines draw themselves, bars grow, list rows arrive one after another.
 | `BadgePercent` | `badge-percent` | The badge turns one notch |  |
 | `Vault` | `vault` | The dial turns a quarter |  |
 | `BanknoteArrowUp` | `banknote-arrow-up` | The arrow rises |  |
+| `ChartArea` | `chart-area` | The area draws itself | `AreaChart` |
+| `ChartBar` | `chart-bar` | The bars grow one after another | `BarChartHorizontal` |
+| `ChartBarBig` | `chart-bar-big` | The bars stretch one after another | `BarChartHorizontalBig` |
+| `ChartNoAxesColumn` | `chart-no-axes-column` | The bars grow one after another | `BarChart2` |
+| `ChartNoAxesCombined` | `chart-no-axes-combined` | The bars grow, the trend draws itself |  |
+| `ChartNetwork` | `chart-network` | The links draw themselves, the nodes beat |  |
+| `ChartScatter` | `chart-scatter` | The dots light up from left to right | `ScatterChart` |
+| `TrendingDown` | `trending-down` | The trend draws itself, the arrowhead arrives |  |
+| `TrendingUpDown` | `trending-up-down` | The two trends move apart |  |
+| `ListOrdered` | `list-ordered` | The rows arrive one after another |  |
+| `ListPlus` | `list-plus` | The plus turns |  |
+| `ListTodo` | `list-todo` | The check draws itself |  |
 | `FileSpreadsheet` | `file-spreadsheet` | The cells fill in one after another |  |
 | `Percent` | `percent` | The slash draws itself, the two circles blink |  |
 | `Euro` | `euro` | The arc of the euro draws itself, then its two bars |  |

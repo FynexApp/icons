@@ -3713,6 +3713,340 @@
       }
     },
     {
+      "name": "chart-area",
+      "type": "registry:component",
+      "title": "Chart Area",
+      "description": "The area draws itself.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/chart-area.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/chart-area.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "ChartArea",
+        "aliases": [
+          "AreaChart"
+        ]
+      }
+    },
+    {
+      "name": "chart-bar",
+      "type": "registry:component",
+      "title": "Chart Bar",
+      "description": "The bars grow one after another.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/chart-bar.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/chart-bar.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "ChartBar",
+        "aliases": [
+          "BarChartHorizontal"
+        ]
+      }
+    },
+    {
+      "name": "chart-bar-big",
+      "type": "registry:component",
+      "title": "Chart Bar Big",
+      "description": "The bars stretch one after another.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/chart-bar-big.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/chart-bar-big.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "ChartBarBig",
+        "aliases": [
+          "BarChartHorizontalBig"
+        ]
+      }
+    },
+    {
+      "name": "chart-no-axes-column",
+      "type": "registry:component",
+      "title": "Chart No Axes Column",
+      "description": "The bars grow one after another.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/chart-no-axes-column.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/chart-no-axes-column.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "ChartNoAxesColumn",
+        "aliases": [
+          "BarChart2"
+        ]
+      }
+    },
+    {
+      "name": "chart-no-axes-combined",
+      "type": "registry:component",
+      "title": "Chart No Axes Combined",
+      "description": "The bars grow, the trend draws itself.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/chart-no-axes-combined.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/chart-no-axes-combined.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "ChartNoAxesCombined",
+        "aliases": []
+      }
+    },
+    {
+      "name": "chart-network",
+      "type": "registry:component",
+      "title": "Chart Network",
+      "description": "The links draw themselves, the nodes beat.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/chart-network.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/chart-network.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "ChartNetwork",
+        "aliases": []
+      }
+    },
+    {
+      "name": "chart-scatter",
+      "type": "registry:component",
+      "title": "Chart Scatter",
+      "description": "The dots light up from left to right.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/chart-scatter.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/chart-scatter.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "ChartScatter",
+        "aliases": [
+          "ScatterChart"
+        ]
+      }
+    },
+    {
+      "name": "trending-down",
+      "type": "registry:component",
+      "title": "Trending Down",
+      "description": "The trend draws itself, the arrowhead arrives.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/trending-down.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/trending-down.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "TrendingDown",
+        "aliases": []
+      }
+    },
+    {
+      "name": "trending-up-down",
+      "type": "registry:component",
+      "title": "Trending Up Down",
+      "description": "The two trends move apart.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/trending-up-down.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/trending-up-down.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "TrendingUpDown",
+        "aliases": []
+      }
+    },
+    {
+      "name": "list-ordered",
+      "type": "registry:component",
+      "title": "List Ordered",
+      "description": "The rows arrive one after another.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/list-ordered.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/list-ordered.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "ListOrdered",
+        "aliases": []
+      }
+    },
+    {
+      "name": "list-plus",
+      "type": "registry:component",
+      "title": "List Plus",
+      "description": "The plus turns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/list-plus.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/list-plus.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "ListPlus",
+        "aliases": []
+      }
+    },
+    {
+      "name": "list-todo",
+      "type": "registry:component",
+      "title": "List Todo",
+      "description": "The check draws itself.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/list-todo.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/list-todo.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "ListTodo",
+        "aliases": []
+      }
+    },
+    {
       "name": "file-spreadsheet",
       "type": "registry:component",
       "title": "File Spreadsheet",
