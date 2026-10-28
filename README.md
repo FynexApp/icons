@@ -266,9 +266,9 @@ Generated from `src/catalog.ts` by `npm run generate`.
 
 <!-- icons:start -->
 
-187 icons in 6 families.
+198 icons in 6 families.
 
-### Arrows and chevrons (27)
+### Arrows and chevrons (38)
 
 Anything that points or turns: an arrow nudges a pixel or two in its own direction and settles back, a loop goes all the way round.
 
@@ -300,6 +300,17 @@ Anything that points or turns: an arrow nudges a pixel or two in its own directi
 | `Upload` | `upload` | The arrow rises |  |
 | `Download` | `download` | The arrow drops | `DownloadIcon` |
 | `FileUp` | `file-up` | The arrow rises inside the page |  |
+| `ArrowDownRight` | `arrow-down-right` | The arrow shoots off diagonally and returns |  |
+| `ArrowDownLeft` | `arrow-down-left` | The arrow shoots off diagonally and returns |  |
+| `ArrowUpLeft` | `arrow-up-left` | The arrow shoots off diagonally and returns |  |
+| `MoveRight` | `move-right` | The arrow steps forward and returns |  |
+| `Undo2` | `undo-2` | The arrow steps back and returns |  |
+| `Redo2` | `redo-2` | The arrow steps forward and returns |  |
+| `Minimize2` | `minimize-2` | The two corners move closer |  |
+| `ArrowUpNarrowWide` | `arrow-up-narrow-wide` | The arrow rises, the rows draw themselves | `SortAsc` |
+| `CloudUpload` | `cloud-upload` | The arrow rises into the cloud | `UploadCloud` |
+| `CloudDownload` | `cloud-download` | The arrow drops out of the cloud | `DownloadCloud` |
+| `FileDown` | `file-down` | The arrow drops inside the page |  |
 | `Maximize2` | `maximize-2` | The two corners move apart |  |
 
 ### Actions (37)

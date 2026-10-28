@@ -762,6 +762,309 @@
       }
     },
     {
+      "name": "arrow-down-right",
+      "type": "registry:component",
+      "title": "Arrow Down Right",
+      "description": "The arrow shoots off diagonally and returns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/arrow-down-right.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/arrow-down-right.tsx"
+        }
+      ],
+      "categories": [
+        "arrows"
+      ],
+      "meta": {
+        "component": "ArrowDownRight",
+        "aliases": []
+      }
+    },
+    {
+      "name": "arrow-down-left",
+      "type": "registry:component",
+      "title": "Arrow Down Left",
+      "description": "The arrow shoots off diagonally and returns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/arrow-down-left.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/arrow-down-left.tsx"
+        }
+      ],
+      "categories": [
+        "arrows"
+      ],
+      "meta": {
+        "component": "ArrowDownLeft",
+        "aliases": []
+      }
+    },
+    {
+      "name": "arrow-up-left",
+      "type": "registry:component",
+      "title": "Arrow Up Left",
+      "description": "The arrow shoots off diagonally and returns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/arrow-up-left.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/arrow-up-left.tsx"
+        }
+      ],
+      "categories": [
+        "arrows"
+      ],
+      "meta": {
+        "component": "ArrowUpLeft",
+        "aliases": []
+      }
+    },
+    {
+      "name": "move-right",
+      "type": "registry:component",
+      "title": "Move Right",
+      "description": "The arrow steps forward and returns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/move-right.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/move-right.tsx"
+        }
+      ],
+      "categories": [
+        "arrows"
+      ],
+      "meta": {
+        "component": "MoveRight",
+        "aliases": []
+      }
+    },
+    {
+      "name": "undo-2",
+      "type": "registry:component",
+      "title": "Undo 2",
+      "description": "The arrow steps back and returns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/undo-2.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/undo-2.tsx"
+        }
+      ],
+      "categories": [
+        "arrows"
+      ],
+      "meta": {
+        "component": "Undo2",
+        "aliases": []
+      }
+    },
+    {
+      "name": "redo-2",
+      "type": "registry:component",
+      "title": "Redo 2",
+      "description": "The arrow steps forward and returns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/redo-2.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/redo-2.tsx"
+        }
+      ],
+      "categories": [
+        "arrows"
+      ],
+      "meta": {
+        "component": "Redo2",
+        "aliases": []
+      }
+    },
+    {
+      "name": "minimize-2",
+      "type": "registry:component",
+      "title": "Minimize 2",
+      "description": "The two corners move closer.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/minimize-2.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/minimize-2.tsx"
+        }
+      ],
+      "categories": [
+        "arrows"
+      ],
+      "meta": {
+        "component": "Minimize2",
+        "aliases": []
+      }
+    },
+    {
+      "name": "arrow-up-narrow-wide",
+      "type": "registry:component",
+      "title": "Arrow Up Narrow Wide",
+      "description": "The arrow rises, the rows draw themselves.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/arrow-up-narrow-wide.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/arrow-up-narrow-wide.tsx"
+        }
+      ],
+      "categories": [
+        "arrows"
+      ],
+      "meta": {
+        "component": "ArrowUpNarrowWide",
+        "aliases": [
+          "SortAsc"
+        ]
+      }
+    },
+    {
+      "name": "cloud-upload",
+      "type": "registry:component",
+      "title": "Cloud Upload",
+      "description": "The arrow rises into the cloud.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/cloud-upload.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/cloud-upload.tsx"
+        }
+      ],
+      "categories": [
+        "arrows"
+      ],
+      "meta": {
+        "component": "CloudUpload",
+        "aliases": [
+          "UploadCloud"
+        ]
+      }
+    },
+    {
+      "name": "cloud-download",
+      "type": "registry:component",
+      "title": "Cloud Download",
+      "description": "The arrow drops out of the cloud.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/cloud-download.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/cloud-download.tsx"
+        }
+      ],
+      "categories": [
+        "arrows"
+      ],
+      "meta": {
+        "component": "CloudDownload",
+        "aliases": [
+          "DownloadCloud"
+        ]
+      }
+    },
+    {
+      "name": "file-down",
+      "type": "registry:component",
+      "title": "File Down",
+      "description": "The arrow drops inside the page.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/file-down.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/file-down.tsx"
+        }
+      ],
+      "categories": [
+        "arrows"
+      ],
+      "meta": {
+        "component": "FileDown",
+        "aliases": []
+      }
+    },
+    {
       "name": "maximize-2",
       "type": "registry:component",
       "title": "Maximize 2",
