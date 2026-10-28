@@ -266,7 +266,7 @@ Generated from `src/catalog.ts` by `npm run generate`.
 
 <!-- icons:start -->
 
-297 icons in 6 families.
+310 icons in 6 families.
 
 ### Arrows and chevrons (38)
 
@@ -384,7 +384,7 @@ What the user does: each icon mimes its own action (the lid lifts, the check dra
 | `ToggleLeft` | `toggle-left` | The knob nudges toward the other side |  |
 | `ToggleRight` | `toggle-right` | The knob nudges toward the other side |  |
 
-### Data and charts (57)
+### Data and charts (62)
 
 Lines draw themselves, bars grow, list rows arrive one after another.
 
@@ -440,6 +440,11 @@ Lines draw themselves, bars grow, list rows arrive one after another.
 | `ListPlus` | `list-plus` | The plus turns |  |
 | `ListTodo` | `list-todo` | The check draws itself |  |
 | `FileSpreadsheet` | `file-spreadsheet` | The cells fill in one after another |  |
+| `Timer` | `timer` | The button is pressed, the hand goes round |  |
+| `AlarmClock` | `alarm-clock` | The alarm clock rings |  |
+| `Hourglass` | `hourglass` | The hourglass flips over |  |
+| `CalendarRange` | `calendar-range` | The range draws itself across the weeks |  |
+| `CalendarX` | `calendar-x` | The cross turns |  |
 | `Percent` | `percent` | The slash draws itself, the two circles blink |  |
 | `Euro` | `euro` | The arc of the euro draws itself, then its two bars |  |
 | `PoundSterling` | `pound-sterling` | The hook of the pound draws itself, then its bar |  |
@@ -489,7 +494,7 @@ What informs or warns: a light blinks, the bell rings, the exclamation mark shak
 | `CloudOff` | `cloud-off` | A slash strikes through the cloud |  |
 | `ShieldOff` | `shield-off` | A slash strikes through the shield |  |
 
-### Navigation and interface (69)
+### Navigation and interface (71)
 
 The landmarks of an interface: panels, pages, people, tools.
 
@@ -559,13 +564,15 @@ The landmarks of an interface: panels, pages, people, tools.
 | `Columns2` | `columns-2` | The divider slides and comes back | `Columns` |
 | `Rows2` | `rows-2` | The divider slides and comes back | `Rows` |
 | `Kanban` | `kanban` | The columns fill one after another |  |
+| `Sparkle` | `sparkle` | The sparkle twinkles |  |
+| `WandSparkles` | `wand-sparkles` | The wand waves, the sparkles twinkle | `Wand2` |
 | `EuroArea` | `euro-area` | The ring of stars turns one notch |  |
 | `EarthEurope` | `earth-europe` | The continents slide, the globe turns |  |
 | `EarthAmericas` | `earth-americas` | The continents slide, the globe turns |  |
 | `EarthAsia` | `earth-asia` | The continents slide, the globe turns |  |
 | `Map` | `map` | The panels of the map move apart | `MapIcon` |
 
-### Objects (35)
+### Objects (41)
 
 Everyday things, each doing what the object does: the heart beats, the flame flickers, the rocket takes off.
 
@@ -605,6 +612,12 @@ Everyday things, each doing what the object does: the heart beats, the flame fli
 | `Package` | `package` | The parcel hops |  |
 | `Box` | `box` | The box hops |  |
 | `Handshake` | `handshake` | The hands shake |  |
+| `Lightbulb` | `lightbulb` | The bulb flickers on |  |
+| `Award` | `award` | The rosette beats |  |
+| `Trophy` | `trophy` | The trophy is raised |  |
+| `Medal` | `medal` | The medal swings from its ribbon |  |
+| `Ticket` | `ticket` | The perforation blinks down the ticket |  |
+| `PartyPopper` | `party-popper` | The popper kicks, the confetti burst out |  |
 | `Ribbon` | `ribbon` | The ribbon swings from its loop |  |
 
 <!-- icons:end -->

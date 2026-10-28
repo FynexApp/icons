@@ -4211,6 +4211,141 @@
       }
     },
     {
+      "name": "timer",
+      "type": "registry:component",
+      "title": "Timer",
+      "description": "The button is pressed, the hand goes round.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/timer.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/timer.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "Timer",
+        "aliases": []
+      }
+    },
+    {
+      "name": "alarm-clock",
+      "type": "registry:component",
+      "title": "Alarm Clock",
+      "description": "The alarm clock rings.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/alarm-clock.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/alarm-clock.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "AlarmClock",
+        "aliases": []
+      }
+    },
+    {
+      "name": "hourglass",
+      "type": "registry:component",
+      "title": "Hourglass",
+      "description": "The hourglass flips over.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/hourglass.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/hourglass.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "Hourglass",
+        "aliases": []
+      }
+    },
+    {
+      "name": "calendar-range",
+      "type": "registry:component",
+      "title": "Calendar Range",
+      "description": "The range draws itself across the weeks.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/calendar-range.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/calendar-range.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "CalendarRange",
+        "aliases": []
+      }
+    },
+    {
+      "name": "calendar-x",
+      "type": "registry:component",
+      "title": "Calendar X",
+      "description": "The cross turns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/calendar-x.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/calendar-x.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "CalendarX",
+        "aliases": []
+      }
+    },
+    {
       "name": "percent",
       "type": "registry:component",
       "title": "Percent",
@@ -7081,6 +7216,62 @@
       }
     },
     {
+      "name": "sparkle",
+      "type": "registry:component",
+      "title": "Sparkle",
+      "description": "The sparkle twinkles.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/sparkle.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/sparkle.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Sparkle",
+        "aliases": []
+      }
+    },
+    {
+      "name": "wand-sparkles",
+      "type": "registry:component",
+      "title": "Wand Sparkles",
+      "description": "The wand waves, the sparkles twinkle.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/wand-sparkles.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/wand-sparkles.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "WandSparkles",
+        "aliases": [
+          "Wand2"
+        ]
+      }
+    },
+    {
       "name": "euro-area",
       "type": "registry:component",
       "title": "Euro Area",
@@ -8132,6 +8323,168 @@
       ],
       "meta": {
         "component": "Handshake",
+        "aliases": []
+      }
+    },
+    {
+      "name": "lightbulb",
+      "type": "registry:component",
+      "title": "Lightbulb",
+      "description": "The bulb flickers on.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/lightbulb.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/lightbulb.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Lightbulb",
+        "aliases": []
+      }
+    },
+    {
+      "name": "award",
+      "type": "registry:component",
+      "title": "Award",
+      "description": "The rosette beats.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/award.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/award.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Award",
+        "aliases": []
+      }
+    },
+    {
+      "name": "trophy",
+      "type": "registry:component",
+      "title": "Trophy",
+      "description": "The trophy is raised.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/trophy.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/trophy.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Trophy",
+        "aliases": []
+      }
+    },
+    {
+      "name": "medal",
+      "type": "registry:component",
+      "title": "Medal",
+      "description": "The medal swings from its ribbon.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/medal.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/medal.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Medal",
+        "aliases": []
+      }
+    },
+    {
+      "name": "ticket",
+      "type": "registry:component",
+      "title": "Ticket",
+      "description": "The perforation blinks down the ticket.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/ticket.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/ticket.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Ticket",
+        "aliases": []
+      }
+    },
+    {
+      "name": "party-popper",
+      "type": "registry:component",
+      "title": "Party Popper",
+      "description": "The popper kicks, the confetti burst out.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/party-popper.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/party-popper.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "PartyPopper",
         "aliases": []
       }
     },
