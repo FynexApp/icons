@@ -1,0 +1,18 @@
+'use client'
+
+import { makeIcon } from '../make-icon'
+import { rock } from '../motions'
+
+/** The beam tips and balances again. */
+export const Scale = /* @__PURE__ */ makeIcon(
+  'Scale',
+  [
+    { tag: 'path', d: 'm16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z', part: 'beam' },
+    { tag: 'path', d: 'm2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z', part: 'beam' },
+    { tag: 'path', d: 'M7 21h10' },
+    { tag: 'path', d: 'M12 3v18' },
+    { tag: 'path', d: 'M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2', part: 'beam' },
+  ],
+  { default: { beam: rock([-5, 4]) } },
+  { origins: { beam: [12, 5] } },
+)
