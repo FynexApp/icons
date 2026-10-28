@@ -1,0 +1,15 @@
+'use client'
+
+import { makeIcon } from '../make-icon'
+import { move } from '../motions'
+
+/** The arrow shoots off diagonally and returns. */
+export const ArrowUpRight = /* @__PURE__ */ makeIcon(
+  'ArrowUpRight',
+  [
+    { tag: 'path', d: 'M7 7h10v10' },
+    { tag: 'path', d: 'M7 17 17 7' },
+  ],
+  { default: { group: move(1.5, -1.5) } },
+)
+export { ArrowUpRight as ArrowUpRightIcon }

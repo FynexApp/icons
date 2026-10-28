@@ -4,6 +4,7 @@
  * `strokeWidth`), plus explicit triggers (`animate`, `animateOnHover`,
  * `loop`, ...).
  */
+export * from './icons'
 export {
   makeIcon,
   type AnimatedIcon,
