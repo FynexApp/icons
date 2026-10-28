@@ -2,9 +2,9 @@
 
 Animated SVG icons for React, with one motion grammar for the whole set.
 
-- **173 icons** drawn on the lucide grid (24 x 24, stroke 2, round caps, `currentColor`), with the same names and props as `lucide-react`.
+- **310 icons** drawn on the lucide grid (24 x 24, stroke 2, round caps, `currentColor`), with the same names and props as `lucide-react`, plus a few Fynex originals (the krona sign, the euro area, three globes).
 - **A plain SVG at rest.** The `motion` elements are mounted only while a gesture plays, then unmounted, so a long table of icons costs about what static SVGs cost.
-- **One grammar, not 173 ideas.** Every gesture comes from the same handful of motion factories, with the same durations, curves and amplitudes. A set that moves as one family, not a gallery of effects.
+- **One grammar, not 310 ideas.** Every gesture comes from the same handful of motion factories, with the same durations, curves and amplitudes. A set that moves as one family, not a gallery of effects.
 - **Triggers that fit a design system.** Icons play on their own hover, on the hover of the button or menu row that contains them, or on demand (`animate`, `loop`, `animateOnTap`, `animateOnView`).
 - **Accessible by default.** Decorative unless labelled, still under `prefers-reduced-motion`, no fake hover on touch screens.
 - **Two ways to install.** An npm package (ESM, typed, tree-shakable), or a shadcn registry that copies the source into your app.
