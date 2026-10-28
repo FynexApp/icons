@@ -2508,6 +2508,116 @@
       }
     },
     {
+      "name": "play",
+      "type": "registry:component",
+      "title": "Play",
+      "description": "The triangle nudges forward.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/play.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/play.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "Play",
+        "aliases": []
+      }
+    },
+    {
+      "name": "pause",
+      "type": "registry:component",
+      "title": "Pause",
+      "description": "The two bars squeeze in turn.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/pause.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/pause.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "Pause",
+        "aliases": []
+      }
+    },
+    {
+      "name": "circle-play",
+      "type": "registry:component",
+      "title": "Circle Play",
+      "description": "The triangle nudges forward inside the circle.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/circle-play.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/circle-play.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "CirclePlay",
+        "aliases": [
+          "PlayCircle"
+        ]
+      }
+    },
+    {
+      "name": "skip-forward",
+      "type": "registry:component",
+      "title": "Skip Forward",
+      "description": "The triangle jumps toward the bar.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/skip-forward.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/skip-forward.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "SkipForward",
+        "aliases": []
+      }
+    },
+    {
       "name": "sliders-vertical",
       "type": "registry:component",
       "title": "Sliders Vertical",
@@ -4396,6 +4506,114 @@
       }
     },
     {
+      "name": "bell-plus",
+      "type": "registry:component",
+      "title": "Bell Plus",
+      "description": "The bell rings, the plus turns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/bell-plus.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/bell-plus.tsx"
+        }
+      ],
+      "categories": [
+        "status"
+      ],
+      "meta": {
+        "component": "BellPlus",
+        "aliases": []
+      }
+    },
+    {
+      "name": "wifi",
+      "type": "registry:component",
+      "title": "Wifi",
+      "description": "The waves light up from the inside out.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/wifi.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/wifi.tsx"
+        }
+      ],
+      "categories": [
+        "status"
+      ],
+      "meta": {
+        "component": "Wifi",
+        "aliases": []
+      }
+    },
+    {
+      "name": "wifi-off",
+      "type": "registry:component",
+      "title": "Wifi Off",
+      "description": "A slash strikes through the waves.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/wifi-off.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/wifi-off.tsx"
+        }
+      ],
+      "categories": [
+        "status"
+      ],
+      "meta": {
+        "component": "WifiOff",
+        "aliases": []
+      }
+    },
+    {
+      "name": "battery",
+      "type": "registry:component",
+      "title": "Battery",
+      "description": "The terminal blinks.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/battery.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/battery.tsx"
+        }
+      ],
+      "categories": [
+        "status"
+      ],
+      "meta": {
+        "component": "Battery",
+        "aliases": []
+      }
+    },
+    {
       "name": "house",
       "type": "registry:component",
       "title": "House",
@@ -5521,6 +5739,222 @@
       }
     },
     {
+      "name": "message-circle",
+      "type": "registry:component",
+      "title": "Message Circle",
+      "description": "The bubble pops up.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/message-circle.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/message-circle.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "MessageCircle",
+        "aliases": []
+      }
+    },
+    {
+      "name": "message-square",
+      "type": "registry:component",
+      "title": "Message Square",
+      "description": "The bubble pops up.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/message-square.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/message-square.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "MessageSquare",
+        "aliases": []
+      }
+    },
+    {
+      "name": "phone",
+      "type": "registry:component",
+      "title": "Phone",
+      "description": "The phone rings.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/phone.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/phone.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Phone",
+        "aliases": []
+      }
+    },
+    {
+      "name": "mic",
+      "type": "registry:component",
+      "title": "Mic",
+      "description": "The microphone sways.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/mic.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/mic.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Mic",
+        "aliases": []
+      }
+    },
+    {
+      "name": "mic-off",
+      "type": "registry:component",
+      "title": "Mic Off",
+      "description": "A slash strikes through the microphone.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/mic-off.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/mic-off.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "MicOff",
+        "aliases": []
+      }
+    },
+    {
+      "name": "volume-x",
+      "type": "registry:component",
+      "title": "Volume X",
+      "description": "The cross turns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/volume-x.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/volume-x.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "VolumeX",
+        "aliases": []
+      }
+    },
+    {
+      "name": "at-sign",
+      "type": "registry:component",
+      "title": "At Sign",
+      "description": "The tail wraps around.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/at-sign.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/at-sign.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "AtSign",
+        "aliases": []
+      }
+    },
+    {
+      "name": "hash",
+      "type": "registry:component",
+      "title": "Hash",
+      "description": "The four strokes draw one after another.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/hash.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/hash.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Hash",
+        "aliases": []
+      }
+    },
+    {
       "name": "grid-3x3",
       "type": "registry:component",
       "title": "Grid 3x 3",
@@ -6336,6 +6770,60 @@
       ],
       "meta": {
         "component": "Shapes",
+        "aliases": []
+      }
+    },
+    {
+      "name": "camera",
+      "type": "registry:component",
+      "title": "Camera",
+      "description": "The shutter snaps.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/camera.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/camera.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Camera",
+        "aliases": []
+      }
+    },
+    {
+      "name": "video",
+      "type": "registry:component",
+      "title": "Video",
+      "description": "The lens zooms.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/video.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/video.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Video",
         "aliases": []
       }
     },

@@ -266,7 +266,7 @@ Generated from `src/catalog.ts` by `npm run generate`.
 
 <!-- icons:start -->
 
-231 icons in 6 families.
+249 icons in 6 families.
 
 ### Arrows and chevrons (38)
 
@@ -313,7 +313,7 @@ Anything that points or turns: an arrow nudges a pixel or two in its own directi
 | `FileDown` | `file-down` | The arrow drops inside the page |  |
 | `Maximize2` | `maximize-2` | The two corners move apart |  |
 
-### Actions (55)
+### Actions (59)
 
 What the user does: each icon mimes its own action (the lid lifts, the check draws itself, the plus turns).
 
@@ -371,6 +371,10 @@ What the user does: each icon mimes its own action (the lid lifts, the check dra
 | `Archive` | `archive` | The lid lifts |  |
 | `Clipboard` | `clipboard` | The clip lifts |  |
 | `ClipboardCheck` | `clipboard-check` | The check draws itself |  |
+| `Play` | `play` | The triangle nudges forward |  |
+| `Pause` | `pause` | The two bars squeeze in turn |  |
+| `CirclePlay` | `circle-play` | The triangle nudges forward inside the circle | `PlayCircle` |
+| `SkipForward` | `skip-forward` | The triangle jumps toward the bar |  |
 | `SlidersVertical` | `sliders-vertical` | The three knobs slide | `Sliders` |
 | `ToggleLeft` | `toggle-left` | The knob nudges toward the other side |  |
 | `ToggleRight` | `toggle-right` | The knob nudges toward the other side |  |
@@ -420,7 +424,7 @@ Lines draw themselves, bars grow, list rows arrive one after another.
 | `Krona` | `krona` | The arms of the k and the shoulder of the r draw themselves |  |
 | `Currency` | `currency` | The ring of the currency sign tightens and returns |  |
 
-### Status (28)
+### Status (32)
 
 What informs or warns: a light blinks, the bell rings, the exclamation mark shakes its head.
 
@@ -454,8 +458,12 @@ What informs or warns: a light blinks, the bell rings, the exclamation mark shak
 | `Bug` | `bug` | The legs wriggle |  |
 | `Wrench` | `wrench` | The wrench tightens |  |
 | `MailCheck` | `mail-check` | The check draws itself |  |
+| `BellPlus` | `bell-plus` | The bell rings, the plus turns |  |
+| `Wifi` | `wifi` | The waves light up from the inside out |  |
+| `WifiOff` | `wifi-off` | A slash strikes through the waves |  |
+| `Battery` | `battery` | The terminal blinks |  |
 
-### Navigation and interface (50)
+### Navigation and interface (58)
 
 The landmarks of an interface: panels, pages, people, tools.
 
@@ -502,6 +510,14 @@ The landmarks of an interface: panels, pages, people, tools.
 | `FolderPlus` | `folder-plus` | The plus turns |  |
 | `File` | `file` | The corner fold draws itself |  |
 | `FilePlus` | `file-plus` | The plus turns |  |
+| `MessageCircle` | `message-circle` | The bubble pops up |  |
+| `MessageSquare` | `message-square` | The bubble pops up |  |
+| `Phone` | `phone` | The phone rings |  |
+| `Mic` | `mic` | The microphone sways |  |
+| `MicOff` | `mic-off` | A slash strikes through the microphone |  |
+| `VolumeX` | `volume-x` | The cross turns |  |
+| `AtSign` | `at-sign` | The tail wraps around |  |
+| `Hash` | `hash` | The four strokes draw one after another |  |
 | `Grid3x3` | `grid-3x3` | The grid lines draw themselves | `Grid`, `Grid3X3` |
 | `Columns2` | `columns-2` | The divider slides and comes back | `Columns` |
 | `Rows2` | `rows-2` | The divider slides and comes back | `Rows` |
@@ -512,7 +528,7 @@ The landmarks of an interface: panels, pages, people, tools.
 | `EarthAsia` | `earth-asia` | The continents slide, the globe turns |  |
 | `Map` | `map` | The panels of the map move apart | `MapIcon` |
 
-### Objects (22)
+### Objects (24)
 
 Everyday things, each doing what the object does: the heart beats, the flame flickers, the rocket takes off.
 
@@ -539,6 +555,8 @@ Everyday things, each doing what the object does: the heart beats, the flame fli
 | `FlaskConical` | `flask-conical` | The flask gets a shake |  |
 | `TestTube` | `test-tube` | The test tube gets a shake |  |
 | `Shapes` | `shapes` | The three shapes hop one after another |  |
+| `Camera` | `camera` | The shutter snaps |  |
+| `Video` | `video` | The lens zooms |  |
 | `Ribbon` | `ribbon` | The ribbon swings from its loop |  |
 
 <!-- icons:end -->
