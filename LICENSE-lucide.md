@@ -7,6 +7,11 @@ Fynex authors (MIT, see `LICENSE`). A few paths were rewritten in the other
 direction, with an identical drawing, so that they draw from left to right
 (`reversed` in `src/catalog.ts`).
 
+A few shapes are not from Lucide: they are original Fynex drawings on the
+same grid, under the MIT License like the rest of the package (`original` in
+`src/catalog.ts`): `Krona`, `EuroArea`, `EarthEurope`, `EarthAmericas` and
+`EarthAsia`.
+
 Lucide is distributed under the ISC License, whose text must accompany every
 copy:
 

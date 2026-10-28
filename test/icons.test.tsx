@@ -28,6 +28,33 @@ function totalDuration(transition: Transition | undefined) {
   return Math.max(own, ...nested)
 }
 
+/**
+ * The second batch of lucide icons, by lucide file name, and the icons ported
+ * from the Fynex app. Each one must be exported and listed in the catalog,
+ * under its own name or as an alias (`filter-x` is an alias of FunnelX,
+ * `sort-asc` of ArrowUpNarrowWide).
+ */
+const SECOND_BATCH = `
+  menu ellipsis ellipsis-vertical grip-vertical log-in log-out arrow-down-right arrow-down-left
+  arrow-up-left move-right undo-2 redo-2 maximize-2 minimize-2 zoom-in zoom-out filter-x sort-asc
+  heart-off star-off pin pin-off flag paperclip printer scissors archive inbox folder folder-open
+  folder-plus file file-plus file-down file-spreadsheet clipboard clipboard-check message-circle
+  message-square phone mic mic-off camera video play pause circle-play skip-forward volume-x
+  bell-plus at-sign hash map map-pin navigation compass route locate wifi wifi-off battery cloud
+  cloud-off cloud-upload cloud-download umbrella snowflake thermometer shopping-cart shopping-bag
+  store truck package box receipt percent euro pound-sterling japanese-yen swiss-franc bitcoin
+  hand-coins badge-dollar-sign badge-percent vault banknote-arrow-up chart-area chart-bar
+  chart-bar-big chart-no-axes-column chart-no-axes-combined chart-network chart-scatter
+  trending-down trending-up-down users user-plus user-minus user-check user-x contact handshake key
+  key-round fingerprint scan-face lock-open shield-off sliders-vertical toggle-left toggle-right
+  list-ordered list-plus list-todo grid-3x3 columns-2 rows-2 kanban timer alarm-clock hourglass
+  calendar-range calendar-x sparkle wand-sparkles lightbulb award trophy medal ticket party-popper
+`.trim().split(/\s+/)
+const FYNEX_PORTS = ['Currency', 'EarthAmericas', 'EarthAsia', 'EarthEurope', 'Euro', 'EuroArea', 'JapaneseYen', 'Krona', 'Map', 'Percent', 'PoundSterling', 'SwissFranc', 'Ribbon', 'Maximize2']
+
+/** `grid-3x3` becomes `Grid3x3`, as lucide names it. */
+const pascal = (slug: string) => slug.replace(/(^|-)(\w)/g, (_, _dash, letter: string) => letter.toUpperCase())
+
 describe('icon set', () => {
   it('exports a component for every catalog entry, and nothing outside the catalog', () => {
     const canonical = new Set(exported.map(([, icon]) => icon.displayName))
@@ -38,6 +65,37 @@ describe('icon set', () => {
       expect(ICON_FAMILIES[item.family], item.name).toBeDefined()
       expect(item.motion.length, `${item.name} describes its motion`).toBeGreaterThan(8)
       for (const alias of item.aliases) expect((Icons as Record<string, unknown>)[alias], alias).toBe(icon)
+    }
+  })
+
+  it('describes every icon in French too, with search keywords in both languages', () => {
+    for (const item of ICON_CATALOG) {
+      expect(item.motionFr.length, `${item.name} describes its motion in French`).toBeGreaterThan(8)
+      expect(item.motionFr, item.name).not.toBe(item.motion)
+      for (const lang of ['en', 'fr'] as const) {
+        const words = item.keywords[lang]
+        expect(words.length, `${item.name} has ${lang} keywords`).toBeGreaterThanOrEqual(2)
+        expect(new Set(words).size, `${item.name} repeats a ${lang} keyword`).toBe(words.length)
+        for (const word of words) expect(word, `${item.name}: "${word}"`).toMatch(/^\S(.*\S)?$/)
+      }
+      // English stays plain ASCII; only French words carry accents.
+      for (const word of item.keywords.en) expect(word, `${item.name}: "${word}"`).toMatch(/^[ -~]+$/)
+    }
+  })
+
+  it('names every original drawing in the lucide license notice, which covers all the other shapes', () => {
+    const notice = fs.readFileSync(path.join(ROOT, 'LICENSE-lucide.md'), 'utf8')
+    const originals = ICON_CATALOG.filter((item) => item.original)
+    expect(originals.length).toBeGreaterThan(0)
+    for (const item of originals) expect(notice, item.name).toContain(`\`${item.name}\``)
+  })
+
+  it('exports every icon of the second batch and lists it in the catalog', () => {
+    expect(SECOND_BATCH).toHaveLength(131)
+    const listed = new Set(ICON_CATALOG.flatMap((item) => [item.name, ...item.aliases]))
+    for (const name of [...SECOND_BATCH.map(pascal), ...FYNEX_PORTS]) {
+      expect((Icons as Record<string, unknown>)[name], `${name} is exported`).toBeDefined()
+      expect(listed.has(name), `${name} is in the catalog`).toBe(true)
     }
   })
 

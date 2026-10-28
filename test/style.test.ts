@@ -16,6 +16,23 @@ function files(dir: string, out: string[] = []) {
   return out
 }
 
+const NON_ASCII = /[^\t\n\r\u0020-\u007e]/
+const CATALOG = path.join(ROOT, 'src/catalog.ts')
+
+/** The source without the contents of its single and double quoted string literals. */
+function withoutStrings(source: string) {
+  return source.replace(/'(?:[^'\\\n]|\\.)*'|"(?:[^"\\\n]|\\.)*"/g, "''")
+}
+
+/**
+ * What must be ASCII in a file. The catalog carries French keywords and
+ * motion sentences, which keep their accents: only its string literals are
+ * exempted, so that its code and comments stay in plain English.
+ */
+function asciiPart(file: string, source: string) {
+  return file === CATALOG ? withoutStrings(source) : source
+}
+
 describe('repository text', () => {
   const all = files(ROOT)
 
@@ -29,12 +46,19 @@ describe('repository text', () => {
     expect(offenders.map((file) => path.relative(ROOT, file))).toEqual([])
   })
 
-  it('is plain ASCII (English only)', () => {
-    // The demo website is bilingual on purpose: its French copy and keywords live in site/src.
+  it('is plain ASCII (English only), except the French data of the catalog and the website', () => {
+    // The demo website is bilingual on purpose: its French copy lives in site/src.
     const bilingual = path.join(ROOT, 'site', 'src') + path.sep
     const offenders = all
       .filter((file) => !file.startsWith(bilingual))
-      .filter((file) => /[^\t\n\r\u0020-\u007e]/.test(fs.readFileSync(file, 'utf8')))
+      .filter((file) => NON_ASCII.test(asciiPart(file, fs.readFileSync(file, 'utf8'))))
     expect(offenders.map((file) => path.relative(ROOT, file))).toEqual([])
+  })
+
+  it('exempts only the string literals of the catalog', () => {
+    const catalog = fs.readFileSync(CATALOG, 'utf8')
+    // Guard of the exemption itself: the French data is there, and its code and comments stay ASCII.
+    expect(NON_ASCII.test(catalog)).toBe(true)
+    expect(NON_ASCII.test(withoutStrings(catalog))).toBe(false)
   })
 })

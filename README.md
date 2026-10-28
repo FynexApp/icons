@@ -2,9 +2,9 @@
 
 Animated SVG icons for React, with one motion grammar for the whole set.
 
-- **173 icons** drawn on the lucide grid (24 x 24, stroke 2, round caps, `currentColor`), with the same names and props as `lucide-react`.
+- **310 icons** drawn on the lucide grid (24 x 24, stroke 2, round caps, `currentColor`), with the same names and props as `lucide-react`, plus a few Fynex originals (the krona sign, the euro area, three globes).
 - **A plain SVG at rest.** The `motion` elements are mounted only while a gesture plays, then unmounted, so a long table of icons costs about what static SVGs cost.
-- **One grammar, not 173 ideas.** Every gesture comes from the same handful of motion factories, with the same durations, curves and amplitudes. A set that moves as one family, not a gallery of effects.
+- **One grammar, not 310 ideas.** Every gesture comes from the same handful of motion factories, with the same durations, curves and amplitudes. A set that moves as one family, not a gallery of effects.
 - **Triggers that fit a design system.** Icons play on their own hover, on the hover of the button or menu row that contains them, or on demand (`animate`, `loop`, `animateOnTap`, `animateOnView`).
 - **Accessible by default.** Decorative unless labelled, still under `prefers-reduced-motion`, no fake hover on touch screens.
 - **Two ways to install.** An npm package (ESM, typed, tree-shakable), or a shadcn registry that copies the source into your app.
@@ -261,7 +261,7 @@ Types: `AnimatedIcon`, `AnimatedIconProps`, `IconPart`, `IconAnimations`, `IconO
 
 ### Catalog
 
-`@fynex/icons/catalog` exports `ICON_CATALOG` (name, slug, family, motion description and lucide aliases of every icon) and `ICON_FAMILIES` (label and grammar of every family). It references no component, so it embeds no icon: use it to build an icon picker or a documentation page.
+`@fynex/icons/catalog` exports `ICON_CATALOG` (name, slug, family, motion description in English and in French, lucide aliases and search keywords in both languages of every icon) and `ICON_FAMILIES` (label and grammar of every family). It references no component, so it embeds no icon: use it to build an icon picker or a documentation page.
 
 ### Deep imports
 
@@ -273,9 +273,9 @@ Generated from `src/catalog.ts` by `npm run generate`.
 
 <!-- icons:start -->
 
-173 icons in 6 families.
+310 icons in 6 families.
 
-### Arrows and chevrons (26)
+### Arrows and chevrons (38)
 
 Anything that points or turns: an arrow nudges a pixel or two in its own direction and settles back, a loop goes all the way round.
 
@@ -307,8 +307,20 @@ Anything that points or turns: an arrow nudges a pixel or two in its own directi
 | `Upload` | `upload` | The arrow rises |  |
 | `Download` | `download` | The arrow drops | `DownloadIcon` |
 | `FileUp` | `file-up` | The arrow rises inside the page |  |
+| `ArrowDownRight` | `arrow-down-right` | The arrow shoots off diagonally and returns |  |
+| `ArrowDownLeft` | `arrow-down-left` | The arrow shoots off diagonally and returns |  |
+| `ArrowUpLeft` | `arrow-up-left` | The arrow shoots off diagonally and returns |  |
+| `MoveRight` | `move-right` | The arrow steps forward and returns |  |
+| `Undo2` | `undo-2` | The arrow steps back and returns |  |
+| `Redo2` | `redo-2` | The arrow steps forward and returns |  |
+| `Minimize2` | `minimize-2` | The two corners move closer |  |
+| `ArrowUpNarrowWide` | `arrow-up-narrow-wide` | The arrow rises, the rows draw themselves | `SortAsc` |
+| `CloudUpload` | `cloud-upload` | The arrow rises into the cloud | `UploadCloud` |
+| `CloudDownload` | `cloud-download` | The arrow drops out of the cloud | `DownloadCloud` |
+| `FileDown` | `file-down` | The arrow drops inside the page |  |
+| `Maximize2` | `maximize-2` | The two corners move apart |  |
 
-### Actions (37)
+### Actions (64)
 
 What the user does: each icon mimes its own action (the lid lifts, the check draws itself, the plus turns).
 
@@ -331,7 +343,7 @@ What the user does: each icon mimes its own action (the lid lifts, the check dra
 | `SearchX` | `search-x` | The magnifier shakes its head |  |
 | `ScanSearch` | `scan-search` | The frame tightens, the magnifier searches |  |
 | `Funnel` | `funnel` | The funnel narrows | `Filter` |
-| `FunnelX` | `funnel-x` | The cross turns |  |
+| `FunnelX` | `funnel-x` | The cross turns | `FilterX` |
 | `ListFilter` | `list-filter` | The three lines narrow in cascade |  |
 | `SlidersHorizontal` | `sliders-horizontal` | The three knobs slide |  |
 | `Settings` | `settings` | The gear turns one notch |  |
@@ -351,8 +363,35 @@ What the user does: each icon mimes its own action (the lid lifts, the check dra
 | `MessageSquarePlus` | `message-square-plus` | The plus turns inside the bubble |  |
 | `Link2` | `link-2` | The two links move closer |  |
 | `Share2` | `share-2` | The branches draw out to both nodes |  |
+| `LogIn` | `log-in` | The arrow steps in through the door |  |
+| `LogOut` | `log-out` | The arrow steps out through the door |  |
+| `ZoomIn` | `zoom-in` | The magnifier zooms in |  |
+| `ZoomOut` | `zoom-out` | The magnifier zooms out |  |
+| `HeartOff` | `heart-off` | A slash strikes through the heart |  |
+| `StarOff` | `star-off` | A slash strikes through the star |  |
+| `Pin` | `pin` | The pin pushes in |  |
+| `PinOff` | `pin-off` | A slash strikes through the pin |  |
+| `Flag` | `flag` | The flag flutters |  |
+| `Paperclip` | `paperclip` | The paperclip swings |  |
+| `Printer` | `printer` | The page comes out |  |
+| `Scissors` | `scissors` | The blades snip twice |  |
+| `Archive` | `archive` | The lid lifts |  |
+| `Clipboard` | `clipboard` | The clip lifts |  |
+| `ClipboardCheck` | `clipboard-check` | The check draws itself |  |
+| `Play` | `play` | The triangle nudges forward |  |
+| `Pause` | `pause` | The two bars squeeze in turn |  |
+| `CirclePlay` | `circle-play` | The triangle nudges forward inside the circle | `PlayCircle` |
+| `SkipForward` | `skip-forward` | The triangle jumps toward the bar |  |
+| `Key` | `key` | The key turns in the lock |  |
+| `KeyRound` | `key-round` | The key turns in the lock |  |
+| `Fingerprint` | `fingerprint` | The ridges trace themselves from the center out |  |
+| `ScanFace` | `scan-face` | The frame tightens, the face smiles |  |
+| `LockOpen` | `lock-open` | The shackle swings on its hinge | `Unlock` |
+| `SlidersVertical` | `sliders-vertical` | The three knobs slide | `Sliders` |
+| `ToggleLeft` | `toggle-left` | The knob nudges toward the other side |  |
+| `ToggleRight` | `toggle-right` | The knob nudges toward the other side |  |
 
-### Data and charts (30)
+### Data and charts (62)
 
 Lines draw themselves, bars grow, list rows arrive one after another.
 
@@ -388,8 +427,40 @@ Lines draw themselves, bars grow, list rows arrive one after another.
 | `CalendarCheck` | `calendar-check` | The check draws itself |  |
 | `Clock` | `clock` | The hands go round once |  |
 | `Target` | `target` | The bullseye beats, the rings answer |  |
+| `Receipt` | `receipt` | The S draws itself |  |
+| `Bitcoin` | `bitcoin` | The coin flips |  |
+| `HandCoins` | `hand-coins` | The coins hop above the hand |  |
+| `BadgeDollarSign` | `badge-dollar-sign` | The S draws itself |  |
+| `BadgePercent` | `badge-percent` | The badge turns one notch |  |
+| `Vault` | `vault` | The dial turns a quarter |  |
+| `BanknoteArrowUp` | `banknote-arrow-up` | The arrow rises |  |
+| `ChartArea` | `chart-area` | The area draws itself | `AreaChart` |
+| `ChartBar` | `chart-bar` | The bars grow one after another | `BarChartHorizontal` |
+| `ChartBarBig` | `chart-bar-big` | The bars stretch one after another | `BarChartHorizontalBig` |
+| `ChartNoAxesColumn` | `chart-no-axes-column` | The bars grow one after another | `BarChart2` |
+| `ChartNoAxesCombined` | `chart-no-axes-combined` | The bars grow, the trend draws itself |  |
+| `ChartNetwork` | `chart-network` | The links draw themselves, the nodes beat |  |
+| `ChartScatter` | `chart-scatter` | The dots light up from left to right | `ScatterChart` |
+| `TrendingDown` | `trending-down` | The trend draws itself, the arrowhead arrives |  |
+| `TrendingUpDown` | `trending-up-down` | The two trends move apart |  |
+| `ListOrdered` | `list-ordered` | The rows arrive one after another |  |
+| `ListPlus` | `list-plus` | The plus turns |  |
+| `ListTodo` | `list-todo` | The check draws itself |  |
+| `FileSpreadsheet` | `file-spreadsheet` | The cells fill in one after another |  |
+| `Timer` | `timer` | The button is pressed, the hand goes round |  |
+| `AlarmClock` | `alarm-clock` | The alarm clock rings |  |
+| `Hourglass` | `hourglass` | The hourglass flips over |  |
+| `CalendarRange` | `calendar-range` | The range draws itself across the weeks |  |
+| `CalendarX` | `calendar-x` | The cross turns |  |
+| `Percent` | `percent` | The slash draws itself, the two circles blink |  |
+| `Euro` | `euro` | The arc of the euro draws itself, then its two bars |  |
+| `PoundSterling` | `pound-sterling` | The hook of the pound draws itself, then its bar |  |
+| `JapaneseYen` | `japanese-yen` | The V of the yen draws itself, then its two bars |  |
+| `SwissFranc` | `swiss-franc` | The F of the franc draws itself, then its bars |  |
+| `Krona` | `krona` | The arms of the k and the shoulder of the r draw themselves |  |
+| `Currency` | `currency` | The ring of the currency sign tightens and returns |  |
 
-### Status (28)
+### Status (34)
 
 What informs or warns: a light blinks, the bell rings, the exclamation mark shakes its head.
 
@@ -423,8 +494,14 @@ What informs or warns: a light blinks, the bell rings, the exclamation mark shak
 | `Bug` | `bug` | The legs wriggle |  |
 | `Wrench` | `wrench` | The wrench tightens |  |
 | `MailCheck` | `mail-check` | The check draws itself |  |
+| `BellPlus` | `bell-plus` | The bell rings, the plus turns |  |
+| `Wifi` | `wifi` | The waves light up from the inside out |  |
+| `WifiOff` | `wifi-off` | A slash strikes through the waves |  |
+| `Battery` | `battery` | The terminal blinks |  |
+| `CloudOff` | `cloud-off` | A slash strikes through the cloud |  |
+| `ShieldOff` | `shield-off` | A slash strikes through the shield |  |
 
-### Navigation and interface (31)
+### Navigation and interface (71)
 
 The landmarks of an interface: panels, pages, people, tools.
 
@@ -461,8 +538,48 @@ The landmarks of an interface: panels, pages, people, tools.
 | `Crown` | `crown` | The crown lifts |  |
 | `CodeXml` | `code-xml` | The brackets move apart | `Code2` |
 | `Volume2` | `volume-2` | The sound waves spread out |  |
+| `Menu` | `menu` | The three bars draw one after another |  |
+| `Ellipsis` | `ellipsis` | The dots hop one after another | `MoreHorizontal` |
+| `EllipsisVertical` | `ellipsis-vertical` | The dots blink from top to bottom | `MoreVertical` |
+| `GripVertical` | `grip-vertical` | The handle is dragged up and down |  |
+| `Inbox` | `inbox` | The tray dips as a letter lands |  |
+| `Folder` | `folder` | The folder tips open and settles back |  |
+| `FolderOpen` | `folder-open` | The folder tips open and settles back |  |
+| `FolderPlus` | `folder-plus` | The plus turns |  |
+| `File` | `file` | The corner fold draws itself |  |
+| `FilePlus` | `file-plus` | The plus turns |  |
+| `MessageCircle` | `message-circle` | The bubble pops up |  |
+| `MessageSquare` | `message-square` | The bubble pops up |  |
+| `Phone` | `phone` | The phone rings |  |
+| `Mic` | `mic` | The microphone sways |  |
+| `MicOff` | `mic-off` | A slash strikes through the microphone |  |
+| `VolumeX` | `volume-x` | The cross turns |  |
+| `AtSign` | `at-sign` | The tail wraps around |  |
+| `Hash` | `hash` | The four strokes draw one after another |  |
+| `MapPin` | `map-pin` | The pin hops |  |
+| `Navigation` | `navigation` | The arrow heads forward |  |
+| `Compass` | `compass` | The needle swings and settles |  |
+| `Route` | `route` | The route draws itself to its destination |  |
+| `Locate` | `locate` | The sight tightens on its target |  |
+| `Users` | `users` | The heads lift one after the other |  |
+| `UserPlus` | `user-plus` | The plus turns |  |
+| `UserMinus` | `user-minus` | The bar contracts |  |
+| `UserCheck` | `user-check` | The check draws itself |  |
+| `UserX` | `user-x` | The cross turns |  |
+| `Contact` | `contact` | The head lifts |  |
+| `Grid3x3` | `grid-3x3` | The grid lines draw themselves | `Grid`, `Grid3X3` |
+| `Columns2` | `columns-2` | The divider slides and comes back | `Columns` |
+| `Rows2` | `rows-2` | The divider slides and comes back | `Rows` |
+| `Kanban` | `kanban` | The columns fill one after another |  |
+| `Sparkle` | `sparkle` | The sparkle twinkles |  |
+| `WandSparkles` | `wand-sparkles` | The wand waves, the sparkles twinkle | `Wand2` |
+| `EuroArea` | `euro-area` | The ring of stars turns one notch |  |
+| `EarthEurope` | `earth-europe` | The continents slide, the globe turns |  |
+| `EarthAmericas` | `earth-americas` | The continents slide, the globe turns |  |
+| `EarthAsia` | `earth-asia` | The continents slide, the globe turns |  |
+| `Map` | `map` | The panels of the map move apart | `MapIcon` |
 
-### Objects (21)
+### Objects (41)
 
 Everyday things, each doing what the object does: the heart beats, the flame flickers, the rocket takes off.
 
@@ -489,6 +606,26 @@ Everyday things, each doing what the object does: the heart beats, the flame fli
 | `FlaskConical` | `flask-conical` | The flask gets a shake |  |
 | `TestTube` | `test-tube` | The test tube gets a shake |  |
 | `Shapes` | `shapes` | The three shapes hop one after another |  |
+| `Camera` | `camera` | The shutter snaps |  |
+| `Video` | `video` | The lens zooms |  |
+| `Cloud` | `cloud` | The cloud drifts |  |
+| `Umbrella` | `umbrella` | The umbrella sways |  |
+| `Snowflake` | `snowflake` | The snowflake turns by one branch |  |
+| `Thermometer` | `thermometer` | The thermometer gets a shake |  |
+| `ShoppingCart` | `shopping-cart` | The cart rolls forward and brakes |  |
+| `ShoppingBag` | `shopping-bag` | The bag lifts |  |
+| `Store` | `store` | The awning flutters |  |
+| `Truck` | `truck` | The truck moves forward and brakes |  |
+| `Package` | `package` | The parcel hops |  |
+| `Box` | `box` | The box hops |  |
+| `Handshake` | `handshake` | The hands shake |  |
+| `Lightbulb` | `lightbulb` | The bulb flickers on |  |
+| `Award` | `award` | The rosette beats |  |
+| `Trophy` | `trophy` | The trophy is raised |  |
+| `Medal` | `medal` | The medal swings from its ribbon |  |
+| `Ticket` | `ticket` | The perforation blinks down the ticket |  |
+| `PartyPopper` | `party-popper` | The popper kicks, the confetti burst out |  |
+| `Ribbon` | `ribbon` | The ribbon swings from its loop |  |
 
 <!-- icons:end -->
 
@@ -511,7 +648,7 @@ To add an icon:
 
 1. Create `src/icons/<slug>.tsx`, starting with `'use client'`, importing only `../make-icon` and `../motions`. Reuse the lucide path when the icon exists in lucide, and keep the lucide name.
 2. Split the drawing into named parts and pick their gestures from the grammar. Prefer an existing factory over new keyframes, and keep the gesture short, small and back at rest when it ends.
-3. Add its entry to `src/catalog.ts`: family, a one sentence description of the motion, and the lucide aliases if any.
+3. Add its entry to `src/catalog.ts`: family, a one sentence description of the motion in English and in French (`motionFr`), the lucide aliases if any, and 5 to 8 search keywords in each language (`keywords.en`, `keywords.fr`: synonyms and use cases, French words with their accents).
 4. Run `npm run generate`: it updates the barrel `src/icons/index.ts`, `registry.json` and the table above.
 5. Run `npm test`. The suite checks that every exported icon has a catalog entry and the other way round, that every animated part has a resting value, that gestures only use transforms, opacity and path length, and that durations stay within the grammar.
 
@@ -519,10 +656,10 @@ Commit messages follow the [Karma convention](http://karma-runner.github.io/late
 
 ## Credits
 
-- The shapes derive from [Lucide](https://lucide.dev) (ISC License), itself a fork of [Feather](https://feathericons.com) (MIT License). See `LICENSE-lucide.md`.
+- The shapes derive from [Lucide](https://lucide.dev) (ISC License), itself a fork of [Feather](https://feathericons.com) (MIT License), except a few original Fynex drawings marked `original` in the catalog. See `LICENSE-lucide.md`.
 - Animations run on [Motion](https://motion.dev).
 - Made for and used in production by Fynex, https://fynexapp.com.
 
 ## License
 
-MIT for the code, the animations and the catalog (see `LICENSE`). The icon shapes keep the Lucide ISC License (see `LICENSE-lucide.md`).
+MIT for the code, the animations, the catalog and the original drawings (see `LICENSE`). The other icon shapes keep the Lucide ISC License (see `LICENSE-lucide.md`).
