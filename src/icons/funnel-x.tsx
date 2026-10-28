@@ -14,3 +14,4 @@ export const FunnelX = /* @__PURE__ */ makeIcon(
   { default: { cross: turn(90) } },
   { origins: { cross: [19, 6] } },
 )
+export { FunnelX as FilterX }

@@ -325,7 +325,7 @@ What the user does: each icon mimes its own action (the lid lifts, the check dra
 | `SearchX` | `search-x` | The magnifier shakes its head |  |
 | `ScanSearch` | `scan-search` | The frame tightens, the magnifier searches |  |
 | `Funnel` | `funnel` | The funnel narrows | `Filter` |
-| `FunnelX` | `funnel-x` | The cross turns |  |
+| `FunnelX` | `funnel-x` | The cross turns | `FilterX` |
 | `ListFilter` | `list-filter` | The three lines narrow in cascade |  |
 | `SlidersHorizontal` | `sliders-horizontal` | The three knobs slide |  |
 | `Settings` | `settings` | The gear turns one notch |  |

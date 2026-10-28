@@ -1277,7 +1277,9 @@
       ],
       "meta": {
         "component": "FunnelX",
-        "aliases": []
+        "aliases": [
+          "FilterX"
+        ]
       }
     },
     {
