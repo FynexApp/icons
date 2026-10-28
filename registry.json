@@ -4614,6 +4614,33 @@
       }
     },
     {
+      "name": "cloud-off",
+      "type": "registry:component",
+      "title": "Cloud Off",
+      "description": "A slash strikes through the cloud.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/cloud-off.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/cloud-off.tsx"
+        }
+      ],
+      "categories": [
+        "status"
+      ],
+      "meta": {
+        "component": "CloudOff",
+        "aliases": []
+      }
+    },
+    {
       "name": "house",
       "type": "registry:component",
       "title": "House",
@@ -5955,6 +5982,141 @@
       }
     },
     {
+      "name": "map-pin",
+      "type": "registry:component",
+      "title": "Map Pin",
+      "description": "The pin hops.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/map-pin.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/map-pin.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "MapPin",
+        "aliases": []
+      }
+    },
+    {
+      "name": "navigation",
+      "type": "registry:component",
+      "title": "Navigation",
+      "description": "The arrow heads forward.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/navigation.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/navigation.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Navigation",
+        "aliases": []
+      }
+    },
+    {
+      "name": "compass",
+      "type": "registry:component",
+      "title": "Compass",
+      "description": "The needle swings and settles.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/compass.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/compass.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Compass",
+        "aliases": []
+      }
+    },
+    {
+      "name": "route",
+      "type": "registry:component",
+      "title": "Route",
+      "description": "The route draws itself to its destination.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/route.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/route.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Route",
+        "aliases": []
+      }
+    },
+    {
+      "name": "locate",
+      "type": "registry:component",
+      "title": "Locate",
+      "description": "The sight tightens on its target.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/locate.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/locate.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Locate",
+        "aliases": []
+      }
+    },
+    {
       "name": "grid-3x3",
       "type": "registry:component",
       "title": "Grid 3x 3",
@@ -6824,6 +6986,114 @@
       ],
       "meta": {
         "component": "Video",
+        "aliases": []
+      }
+    },
+    {
+      "name": "cloud",
+      "type": "registry:component",
+      "title": "Cloud",
+      "description": "The cloud drifts.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/cloud.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/cloud.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Cloud",
+        "aliases": []
+      }
+    },
+    {
+      "name": "umbrella",
+      "type": "registry:component",
+      "title": "Umbrella",
+      "description": "The umbrella sways.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/umbrella.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/umbrella.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Umbrella",
+        "aliases": []
+      }
+    },
+    {
+      "name": "snowflake",
+      "type": "registry:component",
+      "title": "Snowflake",
+      "description": "The snowflake turns by one branch.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/snowflake.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/snowflake.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Snowflake",
+        "aliases": []
+      }
+    },
+    {
+      "name": "thermometer",
+      "type": "registry:component",
+      "title": "Thermometer",
+      "description": "The thermometer gets a shake.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/thermometer.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/thermometer.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Thermometer",
         "aliases": []
       }
     },

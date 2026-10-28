@@ -266,7 +266,7 @@ Generated from `src/catalog.ts` by `npm run generate`.
 
 <!-- icons:start -->
 
-249 icons in 6 families.
+259 icons in 6 families.
 
 ### Arrows and chevrons (38)
 
@@ -424,7 +424,7 @@ Lines draw themselves, bars grow, list rows arrive one after another.
 | `Krona` | `krona` | The arms of the k and the shoulder of the r draw themselves |  |
 | `Currency` | `currency` | The ring of the currency sign tightens and returns |  |
 
-### Status (32)
+### Status (33)
 
 What informs or warns: a light blinks, the bell rings, the exclamation mark shakes its head.
 
@@ -462,8 +462,9 @@ What informs or warns: a light blinks, the bell rings, the exclamation mark shak
 | `Wifi` | `wifi` | The waves light up from the inside out |  |
 | `WifiOff` | `wifi-off` | A slash strikes through the waves |  |
 | `Battery` | `battery` | The terminal blinks |  |
+| `CloudOff` | `cloud-off` | A slash strikes through the cloud |  |
 
-### Navigation and interface (58)
+### Navigation and interface (63)
 
 The landmarks of an interface: panels, pages, people, tools.
 
@@ -518,6 +519,11 @@ The landmarks of an interface: panels, pages, people, tools.
 | `VolumeX` | `volume-x` | The cross turns |  |
 | `AtSign` | `at-sign` | The tail wraps around |  |
 | `Hash` | `hash` | The four strokes draw one after another |  |
+| `MapPin` | `map-pin` | The pin hops |  |
+| `Navigation` | `navigation` | The arrow heads forward |  |
+| `Compass` | `compass` | The needle swings and settles |  |
+| `Route` | `route` | The route draws itself to its destination |  |
+| `Locate` | `locate` | The sight tightens on its target |  |
 | `Grid3x3` | `grid-3x3` | The grid lines draw themselves | `Grid`, `Grid3X3` |
 | `Columns2` | `columns-2` | The divider slides and comes back | `Columns` |
 | `Rows2` | `rows-2` | The divider slides and comes back | `Rows` |
@@ -528,7 +534,7 @@ The landmarks of an interface: panels, pages, people, tools.
 | `EarthAsia` | `earth-asia` | The continents slide, the globe turns |  |
 | `Map` | `map` | The panels of the map move apart | `MapIcon` |
 
-### Objects (24)
+### Objects (28)
 
 Everyday things, each doing what the object does: the heart beats, the flame flickers, the rocket takes off.
 
@@ -557,6 +563,10 @@ Everyday things, each doing what the object does: the heart beats, the flame fli
 | `Shapes` | `shapes` | The three shapes hop one after another |  |
 | `Camera` | `camera` | The shutter snaps |  |
 | `Video` | `video` | The lens zooms |  |
+| `Cloud` | `cloud` | The cloud drifts |  |
+| `Umbrella` | `umbrella` | The umbrella sways |  |
+| `Snowflake` | `snowflake` | The snowflake turns by one branch |  |
+| `Thermometer` | `thermometer` | The thermometer gets a shake |  |
 | `Ribbon` | `ribbon` | The ribbon swings from its loop |  |
 
 <!-- icons:end -->
