@@ -266,7 +266,7 @@ Generated from `src/catalog.ts` by `npm run generate`.
 
 <!-- icons:start -->
 
-198 icons in 6 families.
+213 icons in 6 families.
 
 ### Arrows and chevrons (38)
 
@@ -313,7 +313,7 @@ Anything that points or turns: an arrow nudges a pixel or two in its own directi
 | `FileDown` | `file-down` | The arrow drops inside the page |  |
 | `Maximize2` | `maximize-2` | The two corners move apart |  |
 
-### Actions (37)
+### Actions (44)
 
 What the user does: each icon mimes its own action (the lid lifts, the check draws itself, the plus turns).
 
@@ -356,6 +356,13 @@ What the user does: each icon mimes its own action (the lid lifts, the check dra
 | `MessageSquarePlus` | `message-square-plus` | The plus turns inside the bubble |  |
 | `Link2` | `link-2` | The two links move closer |  |
 | `Share2` | `share-2` | The branches draw out to both nodes |  |
+| `LogIn` | `log-in` | The arrow steps in through the door |  |
+| `LogOut` | `log-out` | The arrow steps out through the door |  |
+| `ZoomIn` | `zoom-in` | The magnifier zooms in |  |
+| `ZoomOut` | `zoom-out` | The magnifier zooms out |  |
+| `SlidersVertical` | `sliders-vertical` | The three knobs slide | `Sliders` |
+| `ToggleLeft` | `toggle-left` | The knob nudges toward the other side |  |
+| `ToggleRight` | `toggle-right` | The knob nudges toward the other side |  |
 
 ### Data and charts (37)
 
@@ -436,7 +443,7 @@ What informs or warns: a light blinks, the bell rings, the exclamation mark shak
 | `Wrench` | `wrench` | The wrench tightens |  |
 | `MailCheck` | `mail-check` | The check draws itself |  |
 
-### Navigation and interface (36)
+### Navigation and interface (44)
 
 The landmarks of an interface: panels, pages, people, tools.
 
@@ -473,6 +480,14 @@ The landmarks of an interface: panels, pages, people, tools.
 | `Crown` | `crown` | The crown lifts |  |
 | `CodeXml` | `code-xml` | The brackets move apart | `Code2` |
 | `Volume2` | `volume-2` | The sound waves spread out |  |
+| `Menu` | `menu` | The three bars draw one after another |  |
+| `Ellipsis` | `ellipsis` | The dots hop one after another | `MoreHorizontal` |
+| `EllipsisVertical` | `ellipsis-vertical` | The dots blink from top to bottom | `MoreVertical` |
+| `GripVertical` | `grip-vertical` | The handle is dragged up and down |  |
+| `Grid3x3` | `grid-3x3` | The grid lines draw themselves | `Grid`, `Grid3X3` |
+| `Columns2` | `columns-2` | The divider slides and comes back | `Columns` |
+| `Rows2` | `rows-2` | The divider slides and comes back | `Rows` |
+| `Kanban` | `kanban` | The columns fill one after another |  |
 | `EuroArea` | `euro-area` | The ring of stars turns one notch |  |
 | `EarthEurope` | `earth-europe` | The continents slide, the globe turns |  |
 | `EarthAmericas` | `earth-americas` | The continents slide, the globe turns |  |

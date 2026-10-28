@@ -2103,6 +2103,197 @@
       }
     },
     {
+      "name": "log-in",
+      "type": "registry:component",
+      "title": "Log In",
+      "description": "The arrow steps in through the door.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/log-in.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/log-in.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "LogIn",
+        "aliases": []
+      }
+    },
+    {
+      "name": "log-out",
+      "type": "registry:component",
+      "title": "Log Out",
+      "description": "The arrow steps out through the door.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/log-out.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/log-out.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "LogOut",
+        "aliases": []
+      }
+    },
+    {
+      "name": "zoom-in",
+      "type": "registry:component",
+      "title": "Zoom In",
+      "description": "The magnifier zooms in.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/zoom-in.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/zoom-in.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "ZoomIn",
+        "aliases": []
+      }
+    },
+    {
+      "name": "zoom-out",
+      "type": "registry:component",
+      "title": "Zoom Out",
+      "description": "The magnifier zooms out.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/zoom-out.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/zoom-out.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "ZoomOut",
+        "aliases": []
+      }
+    },
+    {
+      "name": "sliders-vertical",
+      "type": "registry:component",
+      "title": "Sliders Vertical",
+      "description": "The three knobs slide.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/sliders-vertical.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/sliders-vertical.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "SlidersVertical",
+        "aliases": [
+          "Sliders"
+        ]
+      }
+    },
+    {
+      "name": "toggle-left",
+      "type": "registry:component",
+      "title": "Toggle Left",
+      "description": "The knob nudges toward the other side.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/toggle-left.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/toggle-left.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "ToggleLeft",
+        "aliases": []
+      }
+    },
+    {
+      "name": "toggle-right",
+      "type": "registry:component",
+      "title": "Toggle Right",
+      "description": "The knob nudges toward the other side.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/toggle-right.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/toggle-right.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "ToggleRight",
+        "aliases": []
+      }
+    },
+    {
       "name": "chart-line",
       "type": "registry:component",
       "title": "Chart Line",
@@ -4728,6 +4919,233 @@
       ],
       "meta": {
         "component": "Volume2",
+        "aliases": []
+      }
+    },
+    {
+      "name": "menu",
+      "type": "registry:component",
+      "title": "Menu",
+      "description": "The three bars draw one after another.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/menu.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/menu.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Menu",
+        "aliases": []
+      }
+    },
+    {
+      "name": "ellipsis",
+      "type": "registry:component",
+      "title": "Ellipsis",
+      "description": "The dots hop one after another.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/ellipsis.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/ellipsis.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Ellipsis",
+        "aliases": [
+          "MoreHorizontal"
+        ]
+      }
+    },
+    {
+      "name": "ellipsis-vertical",
+      "type": "registry:component",
+      "title": "Ellipsis Vertical",
+      "description": "The dots blink from top to bottom.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/ellipsis-vertical.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/ellipsis-vertical.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "EllipsisVertical",
+        "aliases": [
+          "MoreVertical"
+        ]
+      }
+    },
+    {
+      "name": "grip-vertical",
+      "type": "registry:component",
+      "title": "Grip Vertical",
+      "description": "The handle is dragged up and down.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/grip-vertical.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/grip-vertical.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "GripVertical",
+        "aliases": []
+      }
+    },
+    {
+      "name": "grid-3x3",
+      "type": "registry:component",
+      "title": "Grid 3x 3",
+      "description": "The grid lines draw themselves.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/grid-3x3.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/grid-3x3.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Grid3x3",
+        "aliases": [
+          "Grid",
+          "Grid3X3"
+        ]
+      }
+    },
+    {
+      "name": "columns-2",
+      "type": "registry:component",
+      "title": "Columns 2",
+      "description": "The divider slides and comes back.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/columns-2.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/columns-2.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Columns2",
+        "aliases": [
+          "Columns"
+        ]
+      }
+    },
+    {
+      "name": "rows-2",
+      "type": "registry:component",
+      "title": "Rows 2",
+      "description": "The divider slides and comes back.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/rows-2.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/rows-2.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Rows2",
+        "aliases": [
+          "Rows"
+        ]
+      }
+    },
+    {
+      "name": "kanban",
+      "type": "registry:component",
+      "title": "Kanban",
+      "description": "The columns fill one after another.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/kanban.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/kanban.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Kanban",
         "aliases": []
       }
     },
