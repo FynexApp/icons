@@ -187,8 +187,9 @@ kbd { font-family: var(--mono); font-size: 12px; color: var(--ash); border: 1px 
 .foot { position: relative; display: grid; margin: 72px calc(-1 * var(--gutter)) 0; min-height: clamp(520px, 62vw, 820px); overflow: hidden; isolation: isolate; }
 .foot-bg { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; object-position: 50% 60%; }
 .foot::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(to bottom, var(--ink) 0%, rgba(10, 8, 6, 0.35) 22%, rgba(10, 8, 6, 0.2) 50%, rgba(10, 8, 6, 0.82) 82%, rgba(10, 8, 6, 0.95) 100%); }
-.foot-content { display: flex; flex-direction: column; justify-content: flex-end; padding: 0 var(--gutter) calc(18px + var(--frame)); min-width: 0; }
-.foot-word { font-family: var(--display); font-weight: 300; font-size: clamp(110px, 23vw, 340px); line-height: 0.95; letter-spacing: -0.02em; text-align: center; color: var(--candle); opacity: 0.92; user-select: none; }
+.foot-content { display: flex; flex-direction: column; padding: 0 var(--gutter) calc(18px + var(--frame)); min-width: 0; }
+/* The word takes the free height and sits in the middle of the painting; its line box is tall enough to hold the descender of the y. */
+.foot-word { flex: 1; display: grid; place-items: center; padding-block: 48px 32px; font-family: var(--display); font-weight: 300; font-size: clamp(110px, 23vw, 340px); line-height: 1.25; letter-spacing: -0.02em; text-align: center; color: var(--candle); opacity: 0.92; user-select: none; }
 .foot-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 24px; padding-block: 18px 14px; border-top: 1px solid rgba(246, 223, 174, 0.3); font-size: 12.5px; color: var(--candle); }
 .foot-row p { margin: 0; }
 .foot-row a { text-decoration: none; border-bottom: 1px solid rgba(246, 223, 174, 0.5); }
