@@ -1,0 +1,16 @@
+{
+  "name": "Fynex Icons",
+  "short_name": "Fynex Icons",
+  "description": "Animated SVG icons for React, open source, made by Fynex.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "lang": "en",
+  "theme_color": "#0a0806",
+  "background_color": "#0a0806",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

@@ -1,14 +1,38 @@
+import fs from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
-import { defineConfig } from 'vite'
+import { defineConfig, type Plugin } from 'vite'
+
+import { ICON_CATALOG } from '../src/catalog.ts'
 
 const repo = (path: string) => fileURLToPath(new URL(`../${path}`, import.meta.url))
+
+/**
+ * The facts the head of index.html repeats (title, description, Open Graph,
+ * JSON-LD), written once here: `__ICON_COUNT__` is the size of the catalog,
+ * `__VERSION__` the version of the package.
+ */
+function headFacts(): Plugin {
+  const { version } = JSON.parse(fs.readFileSync(repo('package.json'), 'utf8')) as { version: string }
+  const facts: Record<string, string> = { __ICON_COUNT__: String(ICON_CATALOG.length), __VERSION__: version }
+  return {
+    name: 'fynex-head-facts',
+    transformIndexHtml: {
+      order: 'pre',
+      handler(html) {
+        for (const [token, value] of Object.entries(facts)) html = html.replaceAll(token, value)
+        return html
+      },
+    },
+  }
+}
 
 // The site runs the repository's own sources, never a published build of @fynex/icons.
 export default defineConfig(({ isSsrBuild }) => ({
   root: fileURLToPath(new URL('.', import.meta.url)),
   // Served at the root of the custom domain https://icons.fynexapp.com (GitHub Pages).
   base: '/',
+  plugins: [headFacts()],
   resolve: {
     alias: [
       { find: /^@fynex\/icons\/catalog$/, replacement: repo('src/catalog.ts') },

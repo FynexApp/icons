@@ -27,6 +27,9 @@ const app = await render()
 
 const page = fs.readFileSync(PAGE, 'utf8')
 if (page.split(EMPTY_ROOT).length !== 2) throw new Error(`${EMPTY_ROOT} must appear exactly once in index.html`)
+for (const token of ['__ICON_COUNT__', '__VERSION__']) {
+  if (page.includes(token)) throw new Error(`index.html still carries the placeholder ${token}`)
+}
 // No whitespace around the markup: hydration compares it node by node.
 fs.writeFileSync(PAGE, page.replace(EMPTY_ROOT, () => `<div id="root">${app}</div>`))
 fs.rmSync(SSR, { recursive: true, force: true })
