@@ -30,7 +30,11 @@ describe('repository text', () => {
   })
 
   it('is plain ASCII (English only)', () => {
-    const offenders = all.filter((file) => /[^\t\n\r\u0020-\u007e]/.test(fs.readFileSync(file, 'utf8')))
+    // The demo website is bilingual on purpose: its French copy and keywords live in site/src.
+    const bilingual = path.join(ROOT, 'site', 'src') + path.sep
+    const offenders = all
+      .filter((file) => !file.startsWith(bilingual))
+      .filter((file) => /[^\t\n\r\u0020-\u007e]/.test(fs.readFileSync(file, 'utf8')))
     expect(offenders.map((file) => path.relative(ROOT, file))).toEqual([])
   })
 })

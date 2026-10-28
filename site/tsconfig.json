@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": ["node", "vite/client"],
+    "paths": {
+      "@fynex/icons": ["../src/index.ts"],
+      "@fynex/icons/catalog": ["../src/catalog.ts"]
+    }
+  },
+  "include": ["src", "vite.config.ts"]
+}
