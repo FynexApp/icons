@@ -762,6 +762,33 @@
       }
     },
     {
+      "name": "maximize-2",
+      "type": "registry:component",
+      "title": "Maximize 2",
+      "description": "The two corners move apart.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/maximize-2.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/maximize-2.tsx"
+        }
+      ],
+      "categories": [
+        "arrows"
+      ],
+      "meta": {
+        "component": "Maximize2",
+        "aliases": []
+      }
+    },
+    {
       "name": "plus",
       "type": "registry:component",
       "title": "Plus",
@@ -2594,6 +2621,195 @@
       }
     },
     {
+      "name": "percent",
+      "type": "registry:component",
+      "title": "Percent",
+      "description": "The slash draws itself, the two circles blink.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/percent.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/percent.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "Percent",
+        "aliases": []
+      }
+    },
+    {
+      "name": "euro",
+      "type": "registry:component",
+      "title": "Euro",
+      "description": "The arc of the euro draws itself, then its two bars.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/euro.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/euro.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "Euro",
+        "aliases": []
+      }
+    },
+    {
+      "name": "pound-sterling",
+      "type": "registry:component",
+      "title": "Pound Sterling",
+      "description": "The hook of the pound draws itself, then its bar.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/pound-sterling.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/pound-sterling.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "PoundSterling",
+        "aliases": []
+      }
+    },
+    {
+      "name": "japanese-yen",
+      "type": "registry:component",
+      "title": "Japanese Yen",
+      "description": "The V of the yen draws itself, then its two bars.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/japanese-yen.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/japanese-yen.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "JapaneseYen",
+        "aliases": []
+      }
+    },
+    {
+      "name": "swiss-franc",
+      "type": "registry:component",
+      "title": "Swiss Franc",
+      "description": "The F of the franc draws itself, then its bars.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/swiss-franc.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/swiss-franc.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "SwissFranc",
+        "aliases": []
+      }
+    },
+    {
+      "name": "krona",
+      "type": "registry:component",
+      "title": "Krona",
+      "description": "The arms of the k and the shoulder of the r draw themselves.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/krona.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/krona.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "Krona",
+        "aliases": []
+      }
+    },
+    {
+      "name": "currency",
+      "type": "registry:component",
+      "title": "Currency",
+      "description": "The ring of the currency sign tightens and returns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/currency.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/currency.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "Currency",
+        "aliases": []
+      }
+    },
+    {
       "name": "loader-circle",
       "type": "registry:component",
       "title": "Loader Circle",
@@ -4211,6 +4427,143 @@
       }
     },
     {
+      "name": "euro-area",
+      "type": "registry:component",
+      "title": "Euro Area",
+      "description": "The ring of stars turns one notch.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/euro-area.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/euro-area.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "EuroArea",
+        "aliases": []
+      }
+    },
+    {
+      "name": "earth-europe",
+      "type": "registry:component",
+      "title": "Earth Europe",
+      "description": "The continents slide, the globe turns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/earth-europe.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/earth-europe.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "EarthEurope",
+        "aliases": []
+      }
+    },
+    {
+      "name": "earth-americas",
+      "type": "registry:component",
+      "title": "Earth Americas",
+      "description": "The continents slide, the globe turns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/earth-americas.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/earth-americas.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "EarthAmericas",
+        "aliases": []
+      }
+    },
+    {
+      "name": "earth-asia",
+      "type": "registry:component",
+      "title": "Earth Asia",
+      "description": "The continents slide, the globe turns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/earth-asia.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/earth-asia.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "EarthAsia",
+        "aliases": []
+      }
+    },
+    {
+      "name": "map",
+      "type": "registry:component",
+      "title": "Map",
+      "description": "The panels of the map move apart.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/map.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/map.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Map",
+        "aliases": [
+          "MapIcon"
+        ]
+      }
+    },
+    {
       "name": "anchor",
       "type": "registry:component",
       "title": "Anchor",
@@ -4774,6 +5127,33 @@
       ],
       "meta": {
         "component": "Shapes",
+        "aliases": []
+      }
+    },
+    {
+      "name": "ribbon",
+      "type": "registry:component",
+      "title": "Ribbon",
+      "description": "The ribbon swings from its loop.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/ribbon.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/ribbon.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Ribbon",
         "aliases": []
       }
     }

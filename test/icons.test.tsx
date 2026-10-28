@@ -56,6 +56,13 @@ describe('icon set', () => {
     }
   })
 
+  it('names every original drawing in the lucide license notice, which covers all the other shapes', () => {
+    const notice = fs.readFileSync(path.join(ROOT, 'LICENSE-lucide.md'), 'utf8')
+    const originals = ICON_CATALOG.filter((item) => item.original)
+    expect(originals.length).toBeGreaterThan(0)
+    for (const item of originals) expect(notice, item.name).toContain(`\`${item.name}\``)
+  })
+
   it('has unique names, slugs and aliases', () => {
     const names = ICON_CATALOG.flatMap((item) => [item.name, ...item.aliases])
     expect(new Set(names).size).toBe(names.length)

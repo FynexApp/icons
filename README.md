@@ -266,9 +266,9 @@ Generated from `src/catalog.ts` by `npm run generate`.
 
 <!-- icons:start -->
 
-173 icons in 6 families.
+187 icons in 6 families.
 
-### Arrows and chevrons (26)
+### Arrows and chevrons (27)
 
 Anything that points or turns: an arrow nudges a pixel or two in its own direction and settles back, a loop goes all the way round.
 
@@ -300,6 +300,7 @@ Anything that points or turns: an arrow nudges a pixel or two in its own directi
 | `Upload` | `upload` | The arrow rises |  |
 | `Download` | `download` | The arrow drops | `DownloadIcon` |
 | `FileUp` | `file-up` | The arrow rises inside the page |  |
+| `Maximize2` | `maximize-2` | The two corners move apart |  |
 
 ### Actions (37)
 
@@ -345,7 +346,7 @@ What the user does: each icon mimes its own action (the lid lifts, the check dra
 | `Link2` | `link-2` | The two links move closer |  |
 | `Share2` | `share-2` | The branches draw out to both nodes |  |
 
-### Data and charts (30)
+### Data and charts (37)
 
 Lines draw themselves, bars grow, list rows arrive one after another.
 
@@ -381,6 +382,13 @@ Lines draw themselves, bars grow, list rows arrive one after another.
 | `CalendarCheck` | `calendar-check` | The check draws itself |  |
 | `Clock` | `clock` | The hands go round once |  |
 | `Target` | `target` | The bullseye beats, the rings answer |  |
+| `Percent` | `percent` | The slash draws itself, the two circles blink |  |
+| `Euro` | `euro` | The arc of the euro draws itself, then its two bars |  |
+| `PoundSterling` | `pound-sterling` | The hook of the pound draws itself, then its bar |  |
+| `JapaneseYen` | `japanese-yen` | The V of the yen draws itself, then its two bars |  |
+| `SwissFranc` | `swiss-franc` | The F of the franc draws itself, then its bars |  |
+| `Krona` | `krona` | The arms of the k and the shoulder of the r draw themselves |  |
+| `Currency` | `currency` | The ring of the currency sign tightens and returns |  |
 
 ### Status (28)
 
@@ -417,7 +425,7 @@ What informs or warns: a light blinks, the bell rings, the exclamation mark shak
 | `Wrench` | `wrench` | The wrench tightens |  |
 | `MailCheck` | `mail-check` | The check draws itself |  |
 
-### Navigation and interface (31)
+### Navigation and interface (36)
 
 The landmarks of an interface: panels, pages, people, tools.
 
@@ -454,8 +462,13 @@ The landmarks of an interface: panels, pages, people, tools.
 | `Crown` | `crown` | The crown lifts |  |
 | `CodeXml` | `code-xml` | The brackets move apart | `Code2` |
 | `Volume2` | `volume-2` | The sound waves spread out |  |
+| `EuroArea` | `euro-area` | The ring of stars turns one notch |  |
+| `EarthEurope` | `earth-europe` | The continents slide, the globe turns |  |
+| `EarthAmericas` | `earth-americas` | The continents slide, the globe turns |  |
+| `EarthAsia` | `earth-asia` | The continents slide, the globe turns |  |
+| `Map` | `map` | The panels of the map move apart | `MapIcon` |
 
-### Objects (21)
+### Objects (22)
 
 Everyday things, each doing what the object does: the heart beats, the flame flickers, the rocket takes off.
 
@@ -482,6 +495,7 @@ Everyday things, each doing what the object does: the heart beats, the flame fli
 | `FlaskConical` | `flask-conical` | The flask gets a shake |  |
 | `TestTube` | `test-tube` | The test tube gets a shake |  |
 | `Shapes` | `shapes` | The three shapes hop one after another |  |
+| `Ribbon` | `ribbon` | The ribbon swings from its loop |  |
 
 <!-- icons:end -->
 
@@ -510,10 +524,10 @@ Commit messages follow the [Karma convention](http://karma-runner.github.io/late
 
 ## Credits
 
-- The shapes derive from [Lucide](https://lucide.dev) (ISC License), itself a fork of [Feather](https://feathericons.com) (MIT License). See `LICENSE-lucide.md`.
+- The shapes derive from [Lucide](https://lucide.dev) (ISC License), itself a fork of [Feather](https://feathericons.com) (MIT License), except a few original Fynex drawings marked `original` in the catalog. See `LICENSE-lucide.md`.
 - Animations run on [Motion](https://motion.dev).
 - Made for and used in production by Fynex, https://fynexapp.com.
 
 ## License
 
-MIT for the code, the animations and the catalog (see `LICENSE`). The icon shapes keep the Lucide ISC License (see `LICENSE-lucide.md`).
+MIT for the code, the animations, the catalog and the original drawings (see `LICENSE`). The other icon shapes keep the Lucide ISC License (see `LICENSE-lucide.md`).
