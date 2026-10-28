@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://icons.fynexapp.com/sitemap.xml
