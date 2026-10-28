@@ -11,8 +11,15 @@ Animated SVG icons for React, with one motion grammar for the whole set.
 
 Made for and used in production by [Fynex](https://fynexapp.com).
 
+## Website
+
+Browse and search the set at **[icons.fynexapp.com](https://icons.fynexapp.com)**: every icon plays its gesture on hover, the search understands English and French synonyms, and each icon has its import line and shadcn command ready to copy.
+
+The site lives in `site/` (a Vite app that runs the sources of this repository, not a published build) and is deployed with the shadcn registry by `.github/workflows/pages.yml` on every push to `main`.
+
 ## Contents
 
+- [Website](#website)
 - [Why another animated icon set](#why-another-animated-icon-set)
 - [The motion grammar](#the-motion-grammar)
 - [Install](#install)
@@ -496,6 +503,8 @@ npm run typecheck
 npm run lint
 npm run build          # ESM and declarations into dist/
 npm run registry:build # shadcn registry into public/r/
+npm run site:dev       # the website, with hot reload
+npm run pages:build    # the website and the registry, as deployed, into site/dist/
 ```
 
 To add an icon:
