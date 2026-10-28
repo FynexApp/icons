@@ -1,6 +1,6 @@
 {
   "name": "@fynex/icons",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Animated SVG icons for React with a consistent motion grammar. Drawn on the lucide grid, animated with motion, plain SVG at rest.",
   "keywords": [
     "icons",
