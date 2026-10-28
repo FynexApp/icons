@@ -266,7 +266,7 @@ Generated from `src/catalog.ts` by `npm run generate`.
 
 <!-- icons:start -->
 
-259 icons in 6 families.
+272 icons in 6 families.
 
 ### Arrows and chevrons (38)
 
@@ -379,7 +379,7 @@ What the user does: each icon mimes its own action (the lid lifts, the check dra
 | `ToggleLeft` | `toggle-left` | The knob nudges toward the other side |  |
 | `ToggleRight` | `toggle-right` | The knob nudges toward the other side |  |
 
-### Data and charts (38)
+### Data and charts (45)
 
 Lines draw themselves, bars grow, list rows arrive one after another.
 
@@ -415,6 +415,13 @@ Lines draw themselves, bars grow, list rows arrive one after another.
 | `CalendarCheck` | `calendar-check` | The check draws itself |  |
 | `Clock` | `clock` | The hands go round once |  |
 | `Target` | `target` | The bullseye beats, the rings answer |  |
+| `Receipt` | `receipt` | The S draws itself |  |
+| `Bitcoin` | `bitcoin` | The coin flips |  |
+| `HandCoins` | `hand-coins` | The coins hop above the hand |  |
+| `BadgeDollarSign` | `badge-dollar-sign` | The S draws itself |  |
+| `BadgePercent` | `badge-percent` | The badge turns one notch |  |
+| `Vault` | `vault` | The dial turns a quarter |  |
+| `BanknoteArrowUp` | `banknote-arrow-up` | The arrow rises |  |
 | `FileSpreadsheet` | `file-spreadsheet` | The cells fill in one after another |  |
 | `Percent` | `percent` | The slash draws itself, the two circles blink |  |
 | `Euro` | `euro` | The arc of the euro draws itself, then its two bars |  |
@@ -534,7 +541,7 @@ The landmarks of an interface: panels, pages, people, tools.
 | `EarthAsia` | `earth-asia` | The continents slide, the globe turns |  |
 | `Map` | `map` | The panels of the map move apart | `MapIcon` |
 
-### Objects (28)
+### Objects (34)
 
 Everyday things, each doing what the object does: the heart beats, the flame flickers, the rocket takes off.
 
@@ -567,6 +574,12 @@ Everyday things, each doing what the object does: the heart beats, the flame fli
 | `Umbrella` | `umbrella` | The umbrella sways |  |
 | `Snowflake` | `snowflake` | The snowflake turns by one branch |  |
 | `Thermometer` | `thermometer` | The thermometer gets a shake |  |
+| `ShoppingCart` | `shopping-cart` | The cart rolls forward and brakes |  |
+| `ShoppingBag` | `shopping-bag` | The bag lifts |  |
+| `Store` | `store` | The awning flutters |  |
+| `Truck` | `truck` | The truck moves forward and brakes |  |
+| `Package` | `package` | The parcel hops |  |
+| `Box` | `box` | The box hops |  |
 | `Ribbon` | `ribbon` | The ribbon swings from its loop |  |
 
 <!-- icons:end -->

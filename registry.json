@@ -3524,6 +3524,195 @@
       }
     },
     {
+      "name": "receipt",
+      "type": "registry:component",
+      "title": "Receipt",
+      "description": "The S draws itself.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/receipt.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/receipt.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "Receipt",
+        "aliases": []
+      }
+    },
+    {
+      "name": "bitcoin",
+      "type": "registry:component",
+      "title": "Bitcoin",
+      "description": "The coin flips.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/bitcoin.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/bitcoin.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "Bitcoin",
+        "aliases": []
+      }
+    },
+    {
+      "name": "hand-coins",
+      "type": "registry:component",
+      "title": "Hand Coins",
+      "description": "The coins hop above the hand.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/hand-coins.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/hand-coins.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "HandCoins",
+        "aliases": []
+      }
+    },
+    {
+      "name": "badge-dollar-sign",
+      "type": "registry:component",
+      "title": "Badge Dollar Sign",
+      "description": "The S draws itself.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/badge-dollar-sign.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/badge-dollar-sign.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "BadgeDollarSign",
+        "aliases": []
+      }
+    },
+    {
+      "name": "badge-percent",
+      "type": "registry:component",
+      "title": "Badge Percent",
+      "description": "The badge turns one notch.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/badge-percent.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/badge-percent.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "BadgePercent",
+        "aliases": []
+      }
+    },
+    {
+      "name": "vault",
+      "type": "registry:component",
+      "title": "Vault",
+      "description": "The dial turns a quarter.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/vault.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/vault.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "Vault",
+        "aliases": []
+      }
+    },
+    {
+      "name": "banknote-arrow-up",
+      "type": "registry:component",
+      "title": "Banknote Arrow Up",
+      "description": "The arrow rises.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/banknote-arrow-up.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/banknote-arrow-up.tsx"
+        }
+      ],
+      "categories": [
+        "data"
+      ],
+      "meta": {
+        "component": "BanknoteArrowUp",
+        "aliases": []
+      }
+    },
+    {
       "name": "file-spreadsheet",
       "type": "registry:component",
       "title": "File Spreadsheet",
@@ -7094,6 +7283,168 @@
       ],
       "meta": {
         "component": "Thermometer",
+        "aliases": []
+      }
+    },
+    {
+      "name": "shopping-cart",
+      "type": "registry:component",
+      "title": "Shopping Cart",
+      "description": "The cart rolls forward and brakes.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/shopping-cart.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/shopping-cart.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "ShoppingCart",
+        "aliases": []
+      }
+    },
+    {
+      "name": "shopping-bag",
+      "type": "registry:component",
+      "title": "Shopping Bag",
+      "description": "The bag lifts.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/shopping-bag.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/shopping-bag.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "ShoppingBag",
+        "aliases": []
+      }
+    },
+    {
+      "name": "store",
+      "type": "registry:component",
+      "title": "Store",
+      "description": "The awning flutters.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/store.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/store.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Store",
+        "aliases": []
+      }
+    },
+    {
+      "name": "truck",
+      "type": "registry:component",
+      "title": "Truck",
+      "description": "The truck moves forward and brakes.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/truck.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/truck.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Truck",
+        "aliases": []
+      }
+    },
+    {
+      "name": "package",
+      "type": "registry:component",
+      "title": "Package",
+      "description": "The parcel hops.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/package.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/package.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Package",
+        "aliases": []
+      }
+    },
+    {
+      "name": "box",
+      "type": "registry:component",
+      "title": "Box",
+      "description": "The box hops.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/box.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/box.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Box",
         "aliases": []
       }
     },
