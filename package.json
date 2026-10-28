@@ -1,0 +1,80 @@
+{
+  "name": "@fynex/icons",
+  "version": "0.1.0",
+  "description": "Animated SVG icons for React with a consistent motion grammar. Drawn on the lucide grid, animated with motion, plain SVG at rest.",
+  "keywords": [
+    "icons",
+    "animated-icons",
+    "react",
+    "motion",
+    "svg",
+    "lucide",
+    "shadcn"
+  ],
+  "homepage": "https://github.com/FynexApp/icons#readme",
+  "bugs": "https://github.com/FynexApp/icons/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FynexApp/icons.git"
+  },
+  "license": "MIT",
+  "author": "Fynex (https://fynexapp.com)",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./catalog": {
+      "types": "./dist/catalog.d.ts",
+      "default": "./dist/catalog.js"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "default": "./dist/icons/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "LICENSE-lucide.md"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.build.json && node scripts/fix-esm-extensions.ts dist",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "generate": "node scripts/generate.ts",
+    "check:generated": "node scripts/generate.ts --check",
+    "registry:build": "shadcn build registry.json --output public/r",
+    "prepublishOnly": "npm run check:generated && npm run typecheck && npm test && npm run build"
+  },
+  "peerDependencies": {
+    "motion": ">=12.0.0 <15.0.0",
+    "react": "^18.2.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "jsdom": "^24.1.3",
+    "motion": "^12.38.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "shadcn": "^4.23.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.40.0",
+    "vitest": "^4.1.11"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
