@@ -266,7 +266,7 @@ Generated from `src/catalog.ts` by `npm run generate`.
 
 <!-- icons:start -->
 
-213 icons in 6 families.
+231 icons in 6 families.
 
 ### Arrows and chevrons (38)
 
@@ -313,7 +313,7 @@ Anything that points or turns: an arrow nudges a pixel or two in its own directi
 | `FileDown` | `file-down` | The arrow drops inside the page |  |
 | `Maximize2` | `maximize-2` | The two corners move apart |  |
 
-### Actions (44)
+### Actions (55)
 
 What the user does: each icon mimes its own action (the lid lifts, the check draws itself, the plus turns).
 
@@ -360,11 +360,22 @@ What the user does: each icon mimes its own action (the lid lifts, the check dra
 | `LogOut` | `log-out` | The arrow steps out through the door |  |
 | `ZoomIn` | `zoom-in` | The magnifier zooms in |  |
 | `ZoomOut` | `zoom-out` | The magnifier zooms out |  |
+| `HeartOff` | `heart-off` | A slash strikes through the heart |  |
+| `StarOff` | `star-off` | A slash strikes through the star |  |
+| `Pin` | `pin` | The pin pushes in |  |
+| `PinOff` | `pin-off` | A slash strikes through the pin |  |
+| `Flag` | `flag` | The flag flutters |  |
+| `Paperclip` | `paperclip` | The paperclip swings |  |
+| `Printer` | `printer` | The page comes out |  |
+| `Scissors` | `scissors` | The blades snip twice |  |
+| `Archive` | `archive` | The lid lifts |  |
+| `Clipboard` | `clipboard` | The clip lifts |  |
+| `ClipboardCheck` | `clipboard-check` | The check draws itself |  |
 | `SlidersVertical` | `sliders-vertical` | The three knobs slide | `Sliders` |
 | `ToggleLeft` | `toggle-left` | The knob nudges toward the other side |  |
 | `ToggleRight` | `toggle-right` | The knob nudges toward the other side |  |
 
-### Data and charts (37)
+### Data and charts (38)
 
 Lines draw themselves, bars grow, list rows arrive one after another.
 
@@ -400,6 +411,7 @@ Lines draw themselves, bars grow, list rows arrive one after another.
 | `CalendarCheck` | `calendar-check` | The check draws itself |  |
 | `Clock` | `clock` | The hands go round once |  |
 | `Target` | `target` | The bullseye beats, the rings answer |  |
+| `FileSpreadsheet` | `file-spreadsheet` | The cells fill in one after another |  |
 | `Percent` | `percent` | The slash draws itself, the two circles blink |  |
 | `Euro` | `euro` | The arc of the euro draws itself, then its two bars |  |
 | `PoundSterling` | `pound-sterling` | The hook of the pound draws itself, then its bar |  |
@@ -443,7 +455,7 @@ What informs or warns: a light blinks, the bell rings, the exclamation mark shak
 | `Wrench` | `wrench` | The wrench tightens |  |
 | `MailCheck` | `mail-check` | The check draws itself |  |
 
-### Navigation and interface (44)
+### Navigation and interface (50)
 
 The landmarks of an interface: panels, pages, people, tools.
 
@@ -484,6 +496,12 @@ The landmarks of an interface: panels, pages, people, tools.
 | `Ellipsis` | `ellipsis` | The dots hop one after another | `MoreHorizontal` |
 | `EllipsisVertical` | `ellipsis-vertical` | The dots blink from top to bottom | `MoreVertical` |
 | `GripVertical` | `grip-vertical` | The handle is dragged up and down |  |
+| `Inbox` | `inbox` | The tray dips as a letter lands |  |
+| `Folder` | `folder` | The folder tips open and settles back |  |
+| `FolderOpen` | `folder-open` | The folder tips open and settles back |  |
+| `FolderPlus` | `folder-plus` | The plus turns |  |
+| `File` | `file` | The corner fold draws itself |  |
+| `FilePlus` | `file-plus` | The plus turns |  |
 | `Grid3x3` | `grid-3x3` | The grid lines draw themselves | `Grid`, `Grid3X3` |
 | `Columns2` | `columns-2` | The divider slides and comes back | `Columns` |
 | `Rows2` | `rows-2` | The divider slides and comes back | `Rows` |
