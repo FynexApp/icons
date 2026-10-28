@@ -84,8 +84,8 @@ npm install @fynex/icons motion
 Each icon is also a shadcn registry item. The CLI copies the source into your project, together with the shared core (factory, motion grammar and triggers) the first time:
 
 ```sh
-npx shadcn@latest add https://fynexapp.github.io/icons/r/arrow-right.json
-npx shadcn@latest add https://fynexapp.github.io/icons/r/check.json https://fynexapp.github.io/icons/r/trash-2.json
+npx shadcn@latest add https://icons.fynexapp.com/r/arrow-right.json
+npx shadcn@latest add https://icons.fynexapp.com/r/check.json https://icons.fynexapp.com/r/trash-2.json
 ```
 
 The files land in `components/fynex-icons/` (under the `components` alias of your `components.json`): the core next to `icons/`, one file per icon.
@@ -99,7 +99,7 @@ To use short names, register the namespace once in `components.json`:
 ```json
 {
   "registries": {
-    "@fynex-icons": "https://fynexapp.github.io/icons/r/{name}.json"
+    "@fynex-icons": "https://icons.fynexapp.com/r/{name}.json"
   }
 }
 ```
@@ -108,7 +108,7 @@ To use short names, register the namespace once in `components.json`:
 npx shadcn@latest add @fynex-icons/arrow-right
 ```
 
-The registry is served from `https://fynexapp.github.io/icons/r/` (the `public/r/` output of `npm run registry:build`, published with GitHub Pages). This address is a placeholder until the site is live.
+The registry is served from `https://icons.fynexapp.com/r/`, next to the website: the Pages workflow runs `npm run pages:build` and publishes both on every push to `main`.
 
 ## Usage
 

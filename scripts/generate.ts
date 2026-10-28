@@ -19,7 +19,7 @@ import { ICON_CATALOG, ICON_FAMILIES, type IconFamily } from '../src/catalog.ts'
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 
 /** Where `public/r/` is served. Placeholder until the GitHub Pages site exists. */
-export const DEFAULT_REGISTRY_URL = 'https://fynexapp.github.io/icons/r'
+export const DEFAULT_REGISTRY_URL = 'https://icons.fynexapp.com/r'
 
 /** Where the files land in a shadcn project, under its `components` alias. */
 export const INSTALL_DIR = '@components/fynex-icons'
