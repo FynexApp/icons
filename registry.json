@@ -2618,6 +2618,143 @@
       }
     },
     {
+      "name": "key",
+      "type": "registry:component",
+      "title": "Key",
+      "description": "The key turns in the lock.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/key.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/key.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "Key",
+        "aliases": []
+      }
+    },
+    {
+      "name": "key-round",
+      "type": "registry:component",
+      "title": "Key Round",
+      "description": "The key turns in the lock.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/key-round.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/key-round.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "KeyRound",
+        "aliases": []
+      }
+    },
+    {
+      "name": "fingerprint",
+      "type": "registry:component",
+      "title": "Fingerprint",
+      "description": "The ridges trace themselves from the center out.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/fingerprint.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/fingerprint.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "Fingerprint",
+        "aliases": []
+      }
+    },
+    {
+      "name": "scan-face",
+      "type": "registry:component",
+      "title": "Scan Face",
+      "description": "The frame tightens, the face smiles.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/scan-face.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/scan-face.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "ScanFace",
+        "aliases": []
+      }
+    },
+    {
+      "name": "lock-open",
+      "type": "registry:component",
+      "title": "Lock Open",
+      "description": "The shackle swings on its hinge.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/lock-open.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/lock-open.tsx"
+        }
+      ],
+      "categories": [
+        "actions"
+      ],
+      "meta": {
+        "component": "LockOpen",
+        "aliases": [
+          "Unlock"
+        ]
+      }
+    },
+    {
       "name": "sliders-vertical",
       "type": "registry:component",
       "title": "Sliders Vertical",
@@ -5164,6 +5301,33 @@
       }
     },
     {
+      "name": "shield-off",
+      "type": "registry:component",
+      "title": "Shield Off",
+      "description": "A slash strikes through the shield.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/shield-off.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/shield-off.tsx"
+        }
+      ],
+      "categories": [
+        "status"
+      ],
+      "meta": {
+        "component": "ShieldOff",
+        "aliases": []
+      }
+    },
+    {
       "name": "house",
       "type": "registry:component",
       "title": "House",
@@ -6640,6 +6804,168 @@
       }
     },
     {
+      "name": "users",
+      "type": "registry:component",
+      "title": "Users",
+      "description": "The heads lift one after the other.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/users.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/users.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Users",
+        "aliases": []
+      }
+    },
+    {
+      "name": "user-plus",
+      "type": "registry:component",
+      "title": "User Plus",
+      "description": "The plus turns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/user-plus.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/user-plus.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "UserPlus",
+        "aliases": []
+      }
+    },
+    {
+      "name": "user-minus",
+      "type": "registry:component",
+      "title": "User Minus",
+      "description": "The bar contracts.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/user-minus.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/user-minus.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "UserMinus",
+        "aliases": []
+      }
+    },
+    {
+      "name": "user-check",
+      "type": "registry:component",
+      "title": "User Check",
+      "description": "The check draws itself.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/user-check.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/user-check.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "UserCheck",
+        "aliases": []
+      }
+    },
+    {
+      "name": "user-x",
+      "type": "registry:component",
+      "title": "User X",
+      "description": "The cross turns.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/user-x.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/user-x.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "UserX",
+        "aliases": []
+      }
+    },
+    {
+      "name": "contact",
+      "type": "registry:component",
+      "title": "Contact",
+      "description": "The head lifts.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/contact.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/contact.tsx"
+        }
+      ],
+      "categories": [
+        "navigation"
+      ],
+      "meta": {
+        "component": "Contact",
+        "aliases": []
+      }
+    },
+    {
       "name": "grid-3x3",
       "type": "registry:component",
       "title": "Grid 3x 3",
@@ -7779,6 +8105,33 @@
       ],
       "meta": {
         "component": "Box",
+        "aliases": []
+      }
+    },
+    {
+      "name": "handshake",
+      "type": "registry:component",
+      "title": "Handshake",
+      "description": "The hands shake.",
+      "author": "Fynex <https://fynexapp.com>",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://fynexapp.github.io/icons/r/icons-core.json"
+      ],
+      "files": [
+        {
+          "path": "src/icons/handshake.tsx",
+          "type": "registry:component",
+          "target": "@components/fynex-icons/icons/handshake.tsx"
+        }
+      ],
+      "categories": [
+        "objects"
+      ],
+      "meta": {
+        "component": "Handshake",
         "aliases": []
       }
     },

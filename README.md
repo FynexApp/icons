@@ -266,7 +266,7 @@ Generated from `src/catalog.ts` by `npm run generate`.
 
 <!-- icons:start -->
 
-284 icons in 6 families.
+297 icons in 6 families.
 
 ### Arrows and chevrons (38)
 
@@ -313,7 +313,7 @@ Anything that points or turns: an arrow nudges a pixel or two in its own directi
 | `FileDown` | `file-down` | The arrow drops inside the page |  |
 | `Maximize2` | `maximize-2` | The two corners move apart |  |
 
-### Actions (59)
+### Actions (64)
 
 What the user does: each icon mimes its own action (the lid lifts, the check draws itself, the plus turns).
 
@@ -375,6 +375,11 @@ What the user does: each icon mimes its own action (the lid lifts, the check dra
 | `Pause` | `pause` | The two bars squeeze in turn |  |
 | `CirclePlay` | `circle-play` | The triangle nudges forward inside the circle | `PlayCircle` |
 | `SkipForward` | `skip-forward` | The triangle jumps toward the bar |  |
+| `Key` | `key` | The key turns in the lock |  |
+| `KeyRound` | `key-round` | The key turns in the lock |  |
+| `Fingerprint` | `fingerprint` | The ridges trace themselves from the center out |  |
+| `ScanFace` | `scan-face` | The frame tightens, the face smiles |  |
+| `LockOpen` | `lock-open` | The shackle swings on its hinge | `Unlock` |
 | `SlidersVertical` | `sliders-vertical` | The three knobs slide | `Sliders` |
 | `ToggleLeft` | `toggle-left` | The knob nudges toward the other side |  |
 | `ToggleRight` | `toggle-right` | The knob nudges toward the other side |  |
@@ -443,7 +448,7 @@ Lines draw themselves, bars grow, list rows arrive one after another.
 | `Krona` | `krona` | The arms of the k and the shoulder of the r draw themselves |  |
 | `Currency` | `currency` | The ring of the currency sign tightens and returns |  |
 
-### Status (33)
+### Status (34)
 
 What informs or warns: a light blinks, the bell rings, the exclamation mark shakes its head.
 
@@ -482,8 +487,9 @@ What informs or warns: a light blinks, the bell rings, the exclamation mark shak
 | `WifiOff` | `wifi-off` | A slash strikes through the waves |  |
 | `Battery` | `battery` | The terminal blinks |  |
 | `CloudOff` | `cloud-off` | A slash strikes through the cloud |  |
+| `ShieldOff` | `shield-off` | A slash strikes through the shield |  |
 
-### Navigation and interface (63)
+### Navigation and interface (69)
 
 The landmarks of an interface: panels, pages, people, tools.
 
@@ -543,6 +549,12 @@ The landmarks of an interface: panels, pages, people, tools.
 | `Compass` | `compass` | The needle swings and settles |  |
 | `Route` | `route` | The route draws itself to its destination |  |
 | `Locate` | `locate` | The sight tightens on its target |  |
+| `Users` | `users` | The heads lift one after the other |  |
+| `UserPlus` | `user-plus` | The plus turns |  |
+| `UserMinus` | `user-minus` | The bar contracts |  |
+| `UserCheck` | `user-check` | The check draws itself |  |
+| `UserX` | `user-x` | The cross turns |  |
+| `Contact` | `contact` | The head lifts |  |
 | `Grid3x3` | `grid-3x3` | The grid lines draw themselves | `Grid`, `Grid3X3` |
 | `Columns2` | `columns-2` | The divider slides and comes back | `Columns` |
 | `Rows2` | `rows-2` | The divider slides and comes back | `Rows` |
@@ -553,7 +565,7 @@ The landmarks of an interface: panels, pages, people, tools.
 | `EarthAsia` | `earth-asia` | The continents slide, the globe turns |  |
 | `Map` | `map` | The panels of the map move apart | `MapIcon` |
 
-### Objects (34)
+### Objects (35)
 
 Everyday things, each doing what the object does: the heart beats, the flame flickers, the rocket takes off.
 
@@ -592,6 +604,7 @@ Everyday things, each doing what the object does: the heart beats, the flame fli
 | `Truck` | `truck` | The truck moves forward and brakes |  |
 | `Package` | `package` | The parcel hops |  |
 | `Box` | `box` | The box hops |  |
+| `Handshake` | `handshake` | The hands shake |  |
 | `Ribbon` | `ribbon` | The ribbon swings from its loop |  |
 
 <!-- icons:end -->
