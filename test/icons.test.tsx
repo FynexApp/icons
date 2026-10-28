@@ -41,6 +41,21 @@ describe('icon set', () => {
     }
   })
 
+  it('describes every icon in French too, with search keywords in both languages', () => {
+    for (const item of ICON_CATALOG) {
+      expect(item.motionFr.length, `${item.name} describes its motion in French`).toBeGreaterThan(8)
+      expect(item.motionFr, item.name).not.toBe(item.motion)
+      for (const lang of ['en', 'fr'] as const) {
+        const words = item.keywords[lang]
+        expect(words.length, `${item.name} has ${lang} keywords`).toBeGreaterThanOrEqual(2)
+        expect(new Set(words).size, `${item.name} repeats a ${lang} keyword`).toBe(words.length)
+        for (const word of words) expect(word, `${item.name}: "${word}"`).toMatch(/^\S(.*\S)?$/)
+      }
+      // English stays plain ASCII; only French words carry accents.
+      for (const word of item.keywords.en) expect(word, `${item.name}: "${word}"`).toMatch(/^[ -~]+$/)
+    }
+  })
+
   it('has unique names, slugs and aliases', () => {
     const names = ICON_CATALOG.flatMap((item) => [item.name, ...item.aliases])
     expect(new Set(names).size).toBe(names.length)

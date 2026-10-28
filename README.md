@@ -254,7 +254,7 @@ Types: `AnimatedIcon`, `AnimatedIconProps`, `IconPart`, `IconAnimations`, `IconO
 
 ### Catalog
 
-`@fynex/icons/catalog` exports `ICON_CATALOG` (name, slug, family, motion description and lucide aliases of every icon) and `ICON_FAMILIES` (label and grammar of every family). It references no component, so it embeds no icon: use it to build an icon picker or a documentation page.
+`@fynex/icons/catalog` exports `ICON_CATALOG` (name, slug, family, motion description in English and in French, lucide aliases and search keywords in both languages of every icon) and `ICON_FAMILIES` (label and grammar of every family). It references no component, so it embeds no icon: use it to build an icon picker or a documentation page.
 
 ### Deep imports
 
@@ -502,7 +502,7 @@ To add an icon:
 
 1. Create `src/icons/<slug>.tsx`, starting with `'use client'`, importing only `../make-icon` and `../motions`. Reuse the lucide path when the icon exists in lucide, and keep the lucide name.
 2. Split the drawing into named parts and pick their gestures from the grammar. Prefer an existing factory over new keyframes, and keep the gesture short, small and back at rest when it ends.
-3. Add its entry to `src/catalog.ts`: family, a one sentence description of the motion, and the lucide aliases if any.
+3. Add its entry to `src/catalog.ts`: family, a one sentence description of the motion in English and in French (`motionFr`), the lucide aliases if any, and 5 to 8 search keywords in each language (`keywords.en`, `keywords.fr`: synonyms and use cases, French words with their accents).
 4. Run `npm run generate`: it updates the barrel `src/icons/index.ts`, `registry.json` and the table above.
 5. Run `npm test`. The suite checks that every exported icon has a catalog entry and the other way round, that every animated part has a resting value, that gestures only use transforms, opacity and path length, and that durations stay within the grammar.
 
