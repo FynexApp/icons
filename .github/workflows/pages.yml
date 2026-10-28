@@ -1,0 +1,51 @@
+name: Pages
+
+# Builds the website (site/) and the shadcn registry into one folder and
+# deploys it to GitHub Pages, served at https://icons.fynexapp.com:
+#   /          the website
+#   /r/*.json  the registry items (npx shadcn add https://icons.fynexapp.com/r/<slug>.json)
+# The custom domain is set in the repository settings (Settings > Pages), not
+# with a CNAME file: an Actions deployment ignores CNAME files.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One deployment at a time. A run in progress is never cancelled, so a
+# production deployment always completes; runs queued meanwhile are skipped.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      # Vite builds the website into site/dist, then shadcn writes the registry into site/dist/r.
+      - run: npm run pages:build
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
