@@ -534,18 +534,23 @@ function Detail({ entry, lang, onClose, onSearch }: { entry: Entry; lang: Lang; 
 
 /* ---------- App ---------- */
 
+const LANG_KEY = 'fynex-icons-lang'
+
+/** The language the visitor chose before, else the browser's. Browser only: called after hydration. */
 function readLang(): Lang {
   try {
-    const stored = localStorage.getItem('fynex-icons-lang')
+    const stored = localStorage.getItem(LANG_KEY)
     if (stored === 'fr' || stored === 'en') return stored
   } catch {
     /* storage unavailable */
   }
-  return navigator.language?.toLowerCase().startsWith('fr') ? 'fr' : 'en'
+  return typeof navigator !== 'undefined' && navigator.language?.toLowerCase().startsWith('fr') ? 'fr' : 'en'
 }
 
 export function App() {
-  const [lang, setLang] = React.useState<Lang>(readLang)
+  // The page is prerendered in English: the first render matches that HTML on every browser,
+  // and the visitor's language is read in an effect, once the page is hydrated.
+  const [lang, setLang] = React.useState<Lang>('en')
   const [query, setQuery] = React.useState('')
   const [family, setFamily] = React.useState<IconFamily | 'all'>('all')
   const [open, setOpen] = React.useState<string | null>(null)
@@ -555,13 +560,22 @@ export function App() {
   const deferred = React.useDeferredValue(query)
 
   React.useEffect(() => {
+    const preferred = readLang()
+    if (preferred !== 'en') setLang(preferred)
+  }, [])
+
+  React.useEffect(() => {
     document.documentElement.lang = lang
+  }, [lang])
+
+  const chooseLang = (next: Lang) => {
+    setLang(next)
     try {
-      localStorage.setItem('fynex-icons-lang', lang)
+      localStorage.setItem(LANG_KEY, next)
     } catch {
       /* storage unavailable */
     }
-  }, [lang])
+  }
 
   React.useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
@@ -608,10 +622,10 @@ export function App() {
         </a>
         <nav className="bar-right">
           <div className="lang" role="group" aria-label="Langue / Language">
-            <button type="button" aria-pressed={lang === 'fr'} onClick={() => setLang('fr')}>
+            <button type="button" aria-pressed={lang === 'fr'} onClick={() => chooseLang('fr')}>
               FR
             </button>
-            <button type="button" aria-pressed={lang === 'en'} onClick={() => setLang('en')}>
+            <button type="button" aria-pressed={lang === 'en'} onClick={() => chooseLang('en')}>
               EN
             </button>
           </div>
@@ -690,7 +704,11 @@ export function App() {
           </div>
           <p className="hint">
             <span className="count">{t.results(filtered.length)}</span>
-            <span className="hover-hint">{canHover() ? t.hoverHint : t.tapHint}</span>
+            {/* Both hints are rendered and CSS shows the one that fits the pointer: the server cannot know it. */}
+            <span className="hover-hint">
+              <span className="hint-hover">{t.hoverHint}</span>
+              <span className="hint-touch">{t.tapHint}</span>
+            </span>
           </p>
         </div>
 

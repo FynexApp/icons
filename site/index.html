@@ -227,6 +227,9 @@ kbd { font-family: var(--mono); font-size: 12px; color: var(--ash); border: 1px 
   .detail { top: auto; left: var(--frame); width: auto; max-height: 86%; border-left: 0; border-top: 1px solid var(--rule-strong); border-radius: 16px 16px 0 0; animation-name: rise; }
   @keyframes rise { from { transform: translateY(40px); opacity: 0; } }
 }
+/* The hint that fits the pointer, chosen by CSS: the prerendered HTML cannot know it. */
+@media (hover: hover) { .hint-touch { display: none; } }
+@media not all and (hover: hover) { .hint-hover { display: none; } }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 1ms !important; transition-duration: 1ms !important; }

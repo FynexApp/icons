@@ -52,7 +52,7 @@
     "check:generated": "node scripts/generate.ts --check",
     "registry:build": "shadcn build registry.json --output public/r",
     "site:dev": "vite site",
-    "site:build": "vite build site",
+    "site:build": "vite build site && vite build site --ssr src/entry-server.tsx && node site/scripts/prerender.ts",
     "pages:build": "npm run site:build && shadcn build registry.json --output site/dist/r",
     "prepublishOnly": "npm run check:generated && npm run typecheck && npm test && npm run build"
   },
