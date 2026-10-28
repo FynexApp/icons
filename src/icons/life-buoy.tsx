@@ -1,0 +1,18 @@
+'use client'
+
+import { makeIcon } from '../make-icon'
+import { turn } from '../motions'
+
+/** The life buoy turns a quarter. */
+export const LifeBuoy = /* @__PURE__ */ makeIcon(
+  'LifeBuoy',
+  [
+    { tag: 'circle', cx: 12, cy: 12, r: 10 },
+    { tag: 'path', d: 'm4.93 4.93 4.24 4.24' },
+    { tag: 'path', d: 'm14.83 9.17 4.24-4.24' },
+    { tag: 'path', d: 'm14.83 14.83 4.24 4.24' },
+    { tag: 'path', d: 'm9.17 14.83-4.24 4.24' },
+    { tag: 'circle', cx: 12, cy: 12, r: 4 },
+  ],
+  { default: { group: turn(90, 0.5) } },
+)
